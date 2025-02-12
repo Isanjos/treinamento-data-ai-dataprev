@@ -40,50 +40,21 @@ O que você aprenderá:
 ### _**Aproveite sua experiência na Oracle Cloud!**_
 
 
-## 1️⃣ Validação de Região
+## 1️⃣ Acessar o Autonomous Database
+1. Primeiro, você irá acessar o OCI e ir até o Menu de Hambúrguer >> Oracle Database >> Autonous Data Warehouse
+   ![Acessar ADW](images/OCIADW1.png)
+   ![Acessar ADW](images/OCIADW2.png)
 
-Faça o login no Oracle Cloud Infrastructure (OCI) e valide se a região de Chicago se encontra disponível para uso.
+2. Selecione sua instância do Autonomous Database criado no laboratório inicial. (Caso não apareça, verifique que o compartimento que você está é o mesmo que foi utilizado para criar o banco de dados)
+   ![Acessar ADW](images/OCIADW3.png)
 
-   ![Validate Region](images/validate-region.png " ")
 
-> **Caso a região de Chicago não esteja disponível, clique em manage region (caso já esteja disponível pule para a sessão 2 - Criação de Autonomous Database)** 
-![Manage Region](images/manage-region.png)
+## 2️⃣ Configurando o Autonomous Database
 
-Busque por **US Midwest (Chicago)** e clique no botão subscribe. O processo de subscrição pode levar alguns minutos, aguarde para dar sequência ao workshop. Clique no ícone escrito **Oracle Cloud** no canto esquerdo e faça logoff e login para validar se a região já foi subscrita.
-
-![Subscribe Region](images/subscribe-region.png)
-
-## 2️⃣ Criação de Autonomous Database
-
-Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência navegue até a página de gestão de autonomous databases.
-
-![Autonomous Acess](images/autonomous-acess.png)
-
-Na página de gestão de Autonomous Databases, clique em create autonomous database. Selecione **ATP ou ADW**
-  
-![Create Autonomous](images/create-autonomous.png)
-
-Escolha a versão 23ai para o banco de dados:
-
-![Create 23AI](images/create-23ai.png)
-
-Coloque a senha **WORKSHOPsec2019##** , escolha **secure access from everywhere** e clique em **Create Autonomous Database**:
-<br><br>
-
-![Secure Acess](images/secure-acess.png)
-
-Aguarde até a conclusão da criação: 
-- Ícone amarelo = criando; 
-- Ícone verde = pronto para uso;
-![Yellow ADW](images/yellow-adw.png)
-![Green ADW](images/green-adw.png)
-
-## 3️⃣ Configurando o Autonomous Database
-
-Clique no ícone chamado database actions e SQL:
+1. Clique no ícone chamado database actions e SQL:
 ![Database Actions](images/database-actions.png)
 
-Caso seja requisitado, o usuário é **admin** e a senha é a **fornecida na criação do autonomous database da etapa anteiror.**
+2. Caso seja requisitado, o usuário é **admin** e a senha é a **fornecida na criação do autonomous database da etapa anteiror.**
 Feche todos os tutoriais que aparecerão na página.
 Copie, cole e execute os comandos abaixo:
 
@@ -148,33 +119,11 @@ Copie, cole e execute os comandos abaixo:
 
     </copy>
 
-Execute conforme indicado abaixo:
+3. Execute conforme indicado abaixo:
 
 ![Execute Code](images\execute-code.png)
 
-
-
-## 4️⃣ Criação do Oracle Analytics Cloud
-
-Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência navegue até a página de gestão do Oracle Analytics Cloud.
-
-![Analytics Cloud Acess](images/AcessoAnalytics.png)
-
-Na página de gestão do Oracle Analytics Cloud, clique em **Create Instance**.
-  
-![Create Analytics Cloud](images/CreateOAC.png)
-
-Dê um nome a instância do Analytics Cloud e mantenha as outras configurações como na imagem a seguir. Ao finalizar clique em **Create**:
-
-![Configurando Analytics Cloud](images/CreateOAC1.png)
-![Configurando Analytics Cloud](images/CreateOAC2.png)
-
-Aguarde até a conclusão da criação: 
-- Ícone amarelo = criando; 
-- Ícone verde = pronto para uso;
-![Green OAC](images/CreateOAC3.png)
-
-Após a criação do OAC, você está pronto para prosseguir para o próximo laboratório.
+🎉🎉 Parabéns, você terminou os Laboratórios de **Oracle 23ai Vector Search: Configure seu Banco Vetorial para Análises Avançadas com sucesso!!** 🎉🎉
 
 ## 👥 Agradecimentos
 
