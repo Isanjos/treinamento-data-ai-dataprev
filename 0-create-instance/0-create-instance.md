@@ -20,8 +20,8 @@ Demonstrar de forma prática como é fácil e ágil o provisionamento das soluç
 O que você aprenderá:
 
 - Criar um banco de dados autônomo (Autonomous Database) no Oracle Cloud Infrastructure (OCI);
-- Provisionar Oracle Analytics Cloud;
-- Explorar as vantagens do Oracle 23c AI na integração de dados relacionais e semânticos.
+- Provisionar Oracle Analytics Cloud, plataforma de autoatendimento de Análise de Negócio;
+- Fazer a configuração do AI Agent.
 
 <br>
 ### **Recursos e Suporte**:
