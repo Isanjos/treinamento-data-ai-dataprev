@@ -51,10 +51,10 @@ O que você aprenderá:
 
 ## 2️⃣ Configurando o Autonomous Database
 
-1. Clique no ícone chamado database actions e SQL:
+Clique no ícone chamado database actions e SQL:
 ![Database Actions](images/database-actions.png)
 
-2. Caso seja requisitado, o usuário é **admin** e a senha é a **fornecida na criação do autonomous database da etapa anteiror.**
+Caso seja requisitado, o usuário é **admin** e a senha é a **fornecida na criação do autonomous database da etapa anteiror.**
 Feche todos os tutoriais que aparecerão na página.
 Copie, cole e execute os comandos abaixo:
 
@@ -119,7 +119,7 @@ Copie, cole e execute os comandos abaixo:
 
     </copy>
 
-3. Execute conforme indicado abaixo:
+Execute conforme indicado abaixo:
 
 ![Execute Code](images\execute-code.png)
 
