@@ -19,15 +19,11 @@
       "filename": "3-apex/3-apex.md"
     },
     {
-      "title": "Lab 3 - Oracle AI Agents + OCI Generative AI: Transforme sua Base de Dados em um Sistema de Respostas Inteligentes",
+      "title": "Lab 3 - Oracle Cloud Data Science: Utilizando Python para realizar análise de documentos pessoais",
       "filename": "4-agents-generative-ai/4-agents-generative-ai.md"
     },
     {
-      "title": "Lab 4 - Oracle Cloud Data Science: Utilizando Python para realizar análise de documentos pessoais",
-      "filename": "4-agents-generative-ai/4-agents-generative-ai.md"
-    },
-    {
-      "title": "Lab 5 - Oracle Analytics Cloud: Insights Avançados para Decisões Estratégicas",
+      "title": "Lab 4 - Oracle Analytics Cloud: Insights Avançados para Decisões Estratégicas",
       "filename": "5-analytics-cloud/5-analytics-cloud.md"
     }
   ]
