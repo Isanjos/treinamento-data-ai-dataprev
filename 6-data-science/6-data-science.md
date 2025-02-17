@@ -126,7 +126,7 @@ Faça o download dos documentos que serão utilizados neste laboratório. Neste 
 
 Descompacte o arquivo em sua máquina. 
 
-Localize o arquivo **FASTRACK_AI_DOCUMENTOS.ipynb**, **arraste e solte** o arquivo até o ambiente de organização de arquivos no Data Science.
+Localize o arquivo **FASTRACK\_AI\_DOCUMENTOS.ipynb**, **arraste e solte** o arquivo até o ambiente de organização de arquivos no Data Science.
 
 ![Upload Notebook](images/upload-notebook.png)
 
