@@ -96,12 +96,6 @@ Aguarde até a conclusão da criação:
 
 Antes de criar o ambiente de código, vamos configurar as permissões necessárias para a interação entre os serviços.
 
-Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Identity & Security ⮕ Compartments**
-
-![Acess Compartments](images/access-compartments.png)
-
-Copie o **nome do compartimento** e **armazene** para utilização na próxima etapa.
-
 ![Copy Compartment](images/copy-compartment.png)
 
 Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Identity & Security ⮕ Policies**
@@ -115,7 +109,7 @@ Clique em **Create Policy**. Em seguida, selecione **Show Manual Editor** e aidi
 ![Policy Data Science](images/policy-data-science.png)
 
     <copy>  
-    allow any-user to manage generative-ai-family in compartment <nome-do-compartimento>
+    allow any-user to manage generative-ai-family in tenancy
     </copy>  
 <!-- Separador -->
 
