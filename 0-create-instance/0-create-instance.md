@@ -91,18 +91,55 @@ Aguarde até a conclusão da criação:
 - Ícone verde = pronto para uso;
 ![Green OAC](images/CreateOAC3.png)
 
-Após a criação do OAC, você está pronto para prosseguir para o próximo laboratório.
 
-## 4️⃣ 
+## 4️⃣ Criação de Notebook OCI Data Science
 
+Antes de criar o ambiente de código, vamos configurar as permissões necessárias para a interação entre os serviços.
 
-## 5️⃣ C
+Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Identity & Security ⮕ Compartments**
 
+![Acess Compartments](images/access-compartments.png)
 
+Copie o **nome do compartimento** e **armazene** para utilização na próxima etapa.
 
-## 6️⃣ Cria
+![Copy Compartment](images/copy-compartment.png)
 
+Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Identity & Security ⮕ Policies**
 
+![Acess Policies](images/acess-policies.png)
+
+Clique em **Create Policy**. Em seguida, selecione **Show Manual Editor** e aidicione a frase abaixo, **substituindo pelo nome do seu compartimento**. Em seguida, clique em **Create**.
+
+![Create Policies](images/create-policies.png)
+
+![Policy Data Science](images/policy-data-science.png)
+
+    <copy>  
+    allow any-user to manage generative-ai-family in compartment <nome-do-compartimento>
+    </copy>  
+<!-- Separador -->
+
+Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
+
+![Create Project](images/create-project.png)
+
+Clique em **Create Project**, defina um nome para o projeto e em seguida, clique em **Create**, na região inferior da tela.
+
+![Name Project](images/name-project.png)
+
+Selecione o nome do projeto e em seguida, clique em **Create Notebook Session**
+
+![Notebook Session](images/notebook-session.png)
+
+Considere as seguintes configurações e em seguida, clique em **Create**:
+
+- **Name:** dataprev-fast-track
+- **Shape:** VM.Standard.E4.Flex Virtual machine, 1 core OCPU, 16 GB memory. Caso não disponível, selecionar VM.Standard.E3.Flex
+- **Network Resources:** Default Networking ⮕ Public Endpoint
+
+![Config Notebook Session](images/config-notebook-session.png)
+
+Após a criação do OCI Data Science, você está pronto para prosseguir para o próximo laboratório.
 
 ## 👥 Agradecimentos
 
