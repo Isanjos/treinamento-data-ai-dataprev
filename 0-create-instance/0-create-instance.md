@@ -102,16 +102,16 @@ Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Ide
 
 ![Acess Policies](images/acess-policies.png)
 
-Clique em **Create Policy**. Em seguida, selecione **Show Manual Editor** e aidicione a frase abaixo, **substituindo pelo nome do seu compartimento**. Em seguida, clique em **Create**.
-
-![Create Policies](images/create-policies.png)
-
-![Policy Data Science](images/policy-data-science.png)
+Clique em **Create Policy**. Em seguida, selecione **Show Manual Editor** e aidicione a frase abaixo. Em seguida, clique em **Create**.
 
     <copy>  
     allow any-user to manage generative-ai-family in tenancy
     </copy>  
 <!-- Separador -->
+
+![Create Policies](images/create-policies.png)
+
+![Policy Data Science](images/policy-data-science.png)
 
 Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
 
