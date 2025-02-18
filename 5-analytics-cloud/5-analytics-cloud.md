@@ -89,9 +89,12 @@ Nome do Serviço: *nome_do_seu_banco_dados + high
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 8. Após a importação você terá acesso ao dataset (Conjunto de Dados) **Brasil-Embarcações** e ao workbook **Lab Analytics - Embarcações Brasil**, se quiser dar uma olhada como o painel vai ficar no final só entrar nele. 
    ![Homepage depois do import](images/Import4.png)
 =======
+=======
+>>>>>>> Stashed changes
 9. Na Homepage do OAC, selecione o Menu de Hamburguer (Canto Superior Esquerdo), Selecione Dados e a Aba Conjunto de Dados (Dataset). E clique com o botão direto ou nos 3 pontinhos, selecione "Inspecionar" e **Duplique** o Conjunto de Dados **Marinha Brasileira - Embarcações**.
 ![Homepage - Conjunto de Dados](images/Dataset.png)
 ![Homepage - Conjunto de Dados](images/Duplicar.png)
@@ -101,6 +104,9 @@ Nome do Serviço: *nome_do_seu_banco_dados + high
 
 11. Será disponível uma tela em branco para criar a Pasta de Trabalho
 ![Pasta de Trabalho](images/Canva.png)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 Você está pronto para prosseguir para o próximo laboratório.
@@ -137,7 +143,11 @@ Você está pronto para prosseguir para o próximo laboratório.
 ![Aba Visualizar](images/TelaGeral.png)
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 4. Adiocione mais uma tela. No canto inferior em um símbolo de '+', ao lado da abas 'Geral', 'Ano a Ano', 'Autoinsight'. Clique nele para adicionar uma Tela.
+=======
+5. Adicione mais uma tela. No canto inferior em um símbolo de '+', ao lado da abas 'Geral', 'Ano a Ano', 'Autoinsight'. Clique nele para adicionar uma Tela.
+>>>>>>> Stashed changes
 =======
 5. Adicione mais uma tela. No canto inferior em um símbolo de '+', ao lado da abas 'Geral', 'Ano a Ano', 'Autoinsight'. Clique nele para adicionar uma Tela.
 >>>>>>> Stashed changes
@@ -153,7 +163,11 @@ Você está pronto para prosseguir para o próximo laboratório.
    ![Previsão](images/Previsao.png) 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 7. Selecione a visualização que deseja adiconar estatística. Clique com o _botão direito_, selecione **Adionar Estatísticas**. E escolha a opção **Previsão**.
+=======
+8. Selecione a visualização que deseja adiconar estatística. Clique com o _botão direito_, selecione **Adicionar Estatísticas**. E escolha a opção **Previsão**.
+>>>>>>> Stashed changes
 =======
 8. Selecione a visualização que deseja adiconar estatística. Clique com o _botão direito_, selecione **Adicionar Estatísticas**. E escolha a opção **Previsão**.
 >>>>>>> Stashed changes
@@ -262,7 +276,11 @@ Você está pronto para prosseguir para o próximo laboratório.
    ![Frota de Embarcação Ano a Ano](images/Calc15.png)
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 16. Clique com o _botão direito_, selecione **Adionar Estatísticas**. E escolha a opção **Linha de Referência**. Deixe na Função Média. 
+=======
+12. Clique com o _botão direito_, selecione **Adicionar Estatísticas**. E escolha a opção **Linha de Referência**. Deixe na Função Média. 
+>>>>>>> Stashed changes
 =======
 12. Clique com o _botão direito_, selecione **Adicionar Estatísticas**. E escolha a opção **Linha de Referência**. Deixe na Função Média. 
 >>>>>>> Stashed changes
