@@ -3,11 +3,11 @@
   "help": " ",
 	"tutorials": [
     {
-      "title": "Configuração do Ambiente de Laboratório",
+      "title": "[SOMENTE SE NÃO CRIADO] Configuração do Ambiente de Laboratório",
       "filename": "0-pt-config-lab/0-pt-config-lab.md"
     },
     {
-      "title": "Criação das Soluções do Laboratório",
+      "title": "[OBRIGATÓRIO] Criação dos Serviços Utilizados nos Laboratórios",
       "filename": "0-create-instance/0-create-instance.md"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "title": "Lab 3 - Oracle Cloud Data Science: Utilizando Python para realizar análise de documentos pessoais",
-      "filename": "4-agents-generative-ai/4-agents-generative-ai.md"
+      "filename": "6-data-science/6-data-science.md"
     },
     {
       "title": "Lab 4 - Oracle Analytics Cloud: Insights Avançados para Decisões Estratégicas",

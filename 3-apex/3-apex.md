@@ -110,27 +110,20 @@ Para preencher corretamente essa credencial, é necessário obter algumas inform
 
 Na tela **User Settings**, localize a guia **API Keys** no canto inferior esquerdo. Clique nela e siga as instruções do assistente (wizard) para criar um par de chaves de API. 
 
-> **ATENÇÃO: Certifique-se de salvar as seguintes informações em um local seguro, pois será necessária para configurar a credencial na próxima etapa:** <br></br>
-> - **OCI User ID**
-> - **OCI Private Key**
-> - **OCI Public Key Fingerprint**
-
+> **ATENÇÃO: Certifique-se de fazer o download das chaves em um local seguro, pois será necessária para configurar a credencial na próxima etapa:**
+> 
    ![API Keys](images/api-keys.png)
 
 O preenchimento do formulário no APEX exigirá informações específicas que podem ser obtidas na tela do OCI. Para facilitar, **utilize as seguintes correspondências de cores** entre os dois sistemas. Preencha as seguintes informações:
-- OCI User ID
-- OCI Private Key 
-- OCI Public Key Fingerprint
+- **OCI User ID** (Coletado no Configuration File Preview)
+- **OCI Public Key Fingerprint** (Coletado no Configuration File Preview)
+- **OCID Tenancy** (Coletado no Configuration File Preview)
+- **OCI Private Key** (Abra o arquivo **.pem** cujo download foi realizado em um bloco de notas e copie o conteúdo)
 
-   ![OCID API OCI](images/ocid-api-oci.png)
+Caso você tenha fechado a página com os dados, clique nos **três pontos** ao lado direito do fingerprint e clique em **View Configuration File**
+
+   ![Config Tenancy](images/config-tenancy.png)
    ![OCID API APEX](images/ocid-api-apex.png)
-
-O OCI Tenancy ID pode ser coletado no OCI na página **Tenancy Details**, que pode ser acessada clicando no nome do seu Tenancy na página inicial do Console ou na seção Tenancy Information dentro de User Settings.
-
-   ![Tenancy Details](images/tenancy-details.png)
-   ![Tenancy OCID](images/tenancy-ocid.png)
-
-Retorne à página do APEX e insira o **OCI Tenancy ID** no campo correspondente, utilizando o valor coletado na página Tenancy Details do OCI.
 
 Por fim, clique em **Apply Changes** para salvar as configurações e concluir o ajuste da credencial.
 
