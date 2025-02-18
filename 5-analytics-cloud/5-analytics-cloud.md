@@ -88,98 +88,120 @@ Nome do Serviço: *nome_do_seu_banco_dados + high
    ![Atualizar Conexão com ADW](images/Conexao4.png)
 
 
+<<<<<<< Updated upstream
 8. Após a importação você terá acesso ao dataset (Conjunto de Dados) **Brasil-Embarcações** e ao workbook **Lab Analytics - Embarcações Brasil**, se quiser dar uma olhada como o painel vai ficar no final só entrar nele. 
    ![Homepage depois do import](images/Import4.png)
+=======
+9. Na Homepage do OAC, selecione o Menu de Hamburguer (Canto Superior Esquerdo), Selecione Dados e a Aba Conjunto de Dados (Dataset). E clique com o botão direto ou nos 3 pontinhos, selecione "Inspecionar" e **Duplique** o Conjunto de Dados **Marinha Brasileira - Embarcações**.
+![Homepage - Conjunto de Dados](images/Dataset.png)
+![Homepage - Conjunto de Dados](images/Duplicar.png)
+
+10. Selecione o Conjunto de Dados **Marinha Brasileira - Embarcações** e selecione Criar Pasta de Trabalho.
+![Conjunto de Dados - Pasta de Trabalho](images/Duplicar2.png)
+
+11. Será disponível uma tela em branco para criar a Pasta de Trabalho
+![Pasta de Trabalho](images/Canva.png)
+>>>>>>> Stashed changes
 
 Você está pronto para prosseguir para o próximo laboratório.
 
+## 3️⃣ Autoinsights
 
-## 3️⃣ Criação do Dashboard - Visualizações
+1. Selecione a **Lâmpada Laranja** no canto superior direito próximo ao Ícone do Perfil. Irá abrir uma aba com várias sugestões de gráficos e visualizações.
+   ![Autoinsights](images/Autoinsight1.png)
+   ![Autoinsights](images/Autoinsight2.png)  
 
-1. Na Homepage do OAC, selecione o Menu de Hamburguer (Canto Superior Esquerdo), Selecione Catálogo >> Minhas Pastas e selecione **Lab Analytics - Embarcações Brasil** (Workbook).
+2. Aproveite para selecionar algumas visualizações, como o Mapa **Geographical Density of Records**, clique no símbolo '+' ou arraste e solte na tela do Painel. 
+   ![Autoinsights](images/Autoinsight3.png) 
+
+3. Repita a mesma ação para o gráfico de Barras **Top 10 SIGLA by QUANTIDADE**.
+   ![Autoinsights](images/Autoinsight4.png) 
+
+4. Sua tela de Autoinsights ficará dessa forma: 
+   ![Autoinsights](images/Autoinsight5.png) 
+
+Você está pronto para prosseguir para o próximo laboratório.
+
+## 4️⃣ Criação do Dashboard - Visualizações
+
+1. Volte para Homepage e selecione o workbook **Lab Analytics - Embarcações Brasil**, para dar uma olhada no painel. 
+   ![Homepage depois do import](images/Import4.png)
+
+2. Na Homepage do OAC, selecione o Menu de Hamburguer (Canto Superior Esquerdo), Selecione Catálogo >> Minhas Pastas e selecione **Lab Analytics - Embarcações Brasil** (Workbook).
 ![Homepage - Catálogo](images/Homepage_Catalog.png)
 
-2. Irá abrir o workbook (Pasta de Trabalho), uma tela com os paineis de dados com informações das Embarcações da Marinha Brasileira. No canto superior direito tem um lápis para abrir a aba de edição do Painel de Dados.  
+3. Irá abrir o workbook (Pasta de Trabalho), uma tela com os paineis de dados com informações das Embarcações da Marinha Brasileira. No canto superior direito tem um lápis para abrir a aba de edição do Painel de Dados.  
 ![Editar Workbook](images/EditarWorkbook.png)
 
-3. Na aba **Visualizar**, você encontra os gráficos para serem editados com os DADOS disponíveis na primeira coluna (VERMELHO), a Gramática do Gráfico na segunda coluna - primeiro ícone (VERDE) e as Propriedades do gráfico, na segunda coluna - segundo ícone (AZUL). E a possibilidade de criar outros gráficos.
+4. Na aba **Visualizar**, você encontra os gráficos para serem editados com os DADOS disponíveis na primeira coluna (VERMELHO), a Gramática do Gráfico na segunda coluna - primeiro ícone (VERDE) e as Propriedades do gráfico, na segunda coluna - segundo ícone (AZUL). E a possibilidade de criar outros gráficos.
 ![Aba Visualizar](images/TelaGeral.png)
 
+<<<<<<< Updated upstream
 4. Adiocione mais uma tela. No canto inferior em um símbolo de '+', ao lado da abas 'Geral', 'Ano a Ano', 'Autoinsight'. Clique nele para adicionar uma Tela.
+=======
+5. Adicione mais uma tela. No canto inferior em um símbolo de '+', ao lado da abas 'Geral', 'Ano a Ano', 'Autoinsight'. Clique nele para adicionar uma Tela.
+>>>>>>> Stashed changes
    ![Tela 4](images/Tela2.png) 
 
 <br>
 
 ### **Estatística - Previsão (Forecast)**
-5. Segure **_CTRL+Clique_** nos campos **ANO e QUANTIDADE** na primeira coluna no primeiro ícone (Dados), e arraste os dois para a tela em branco. 
+6. Segure **_CTRL+Clique_** nos campos **ANO e QUANTIDADE** na primeira coluna no primeiro ícone (Dados), e arraste os dois para a tela em branco. 
    ![Previsão](images/Previsao0.png)
 
-6. Verifique que é um gráfico de **Linha**.
+7. Verifique que é um gráfico de **Linha**.
    ![Previsão](images/Previsao.png) 
 
+<<<<<<< Updated upstream
 7. Selecione a visualização que deseja adiconar estatística. Clique com o _botão direito_, selecione **Adionar Estatísticas**. E escolha a opção **Previsão**.
+=======
+8. Selecione a visualização que deseja adiconar estatística. Clique com o _botão direito_, selecione **Adicionar Estatísticas**. E escolha a opção **Previsão**.
+>>>>>>> Stashed changes
    ![Previsão](images/Previsao2.png) 
    ![Previsão](images/Previsao3.png) 
    ![Previsão](images/Previsao4.png) 
 
-8. Alterar o tipo de Visualização, selecione na Gramática do Gráfico (Segunda Coluna) o ícone to tipo de gráfico, irá expandir e mostrar todas as possibilidades de visualização com os dados que estão disponíveis no gráfico. Observação: Para ver todos os tipos de visualizações  
+9. Alterar o tipo de Visualização, selecione na Gramática do Gráfico (Segunda Coluna) o ícone to tipo de gráfico, irá expandir e mostrar todas as possibilidades de visualização com os dados que estão disponíveis no gráfico. Observação: Para ver todos os tipos de visualizações  
    ![Alterar Visualização](images/AlterarViz.png) 
    ![Alterar Visualização](images/AlterarViz2.png) 
 
-9.  (OPCIONAL) Personalizar a propriedade do gráfico, deixando o valor e o ponto no gráfico visível. 
+10.  (OPCIONAL) Personalizar a propriedade do gráfico, deixando o valor e o ponto no gráfico visível. 
    ![Propriedades da Visualização](images/Prop1.png) 
    ![Propriedades da Visualização](images/Prop2.png) 
 
 Você está pronto para prosseguir para o próximo laboratório.
 
-## 4️⃣ One-Click Explain & Autoinsights
-1. Adicione mais uma tela. No canto inferior tem um símbolo de '+', ao lado da aba 'Tela 1' ou 'Geral'. Clique nele para adicionar uma segunda Tela.
-   ![Tela 2](images/Tela2.png) 
+## 5️⃣ One-Click Explain
 
-2. Renomeie o nome da Tela 2 para **'Autoinsights'**, Abas no canto inferior do Painel. 
-
-3. Selecione a **Lâmpada Laranja** no canto superior direito próximo ao Ícone do Perfil. Irá abrir uma aba com várias sugestões de gráficos e visualizações.
-   ![Autoinsights](images/Autoinsight1.png)
-   ![Autoinsights](images/Autoinsight2.png)  
-
-4. Aproveite para selecionar algumas visualizações, como o Mapa **Geographical Density of Records**, clique no símbolo '+' ou arraste e solte na tela do Painel. 
-   ![Autoinsights](images/Autoinsight3.png) 
-
-5. Repita a mesma ação para o gráfico de Barras **Top 10 SIGLA by QUANTIDADE**.
-   ![Autoinsights](images/Autoinsight4.png) 
-
-6. Sua tela de Autoinsights ficará dessa forma: 
-   ![Autoinsights](images/Autoinsight5.png) 
-
-7. Agora, a funcionalidade que explica seu dado. Clique com o _botão direito_ em cima do dado **ESTADO**. E selecione **'Explicar ESTADO'**
+1. Agora, a funcionalidade que explica seu dado. Clique com o _botão direito_ em cima do dado **ESTADO**. E selecione **'Explicar ESTADO'**
    ![One-Click Explain](images/Explain10.png)
 
-8. Vai abrir um pop up, com __Fatos Básicos, Drivers Chave, Segmentos e Anomalias__ sobre o dado selecionado.
+2. Vai abrir um pop up, com __Fatos Básicos, Drivers Chave, Segmentos e Anomalias__ sobre o dado selecionado.
    ![One-Click Explain](images/Explain11.png)
 
-9. Navegue pelas Abas do Explain para ver quais visualizações e quais tipos de análises são disponibilizadas com 1-Clique.
+3. Navegue pelas Abas do Explain para ver quais visualizações e quais tipos de análises são disponibilizadas com 1-Clique.
    ![One-Click Explain](images/Explain12.png)
    ![One-Click Explain](images/Explain13.png)
    ![One-Click Explain](images/Explain14.png)
 
-10. Repita para o dado **EMBARCAÇÃO**, clique com o _botão direito_ em cima do dado **EMBARCAÇÃO**. E selecione **'Explicar EMBARCAÇÃO'**
+4. Repita para o dado **EMBARCAÇÃO**, clique com o _botão direito_ em cima do dado **EMBARCAÇÃO**. E selecione **'Explicar EMBARCAÇÃO'**
    ![One-Click Explain](images/Explain1.png)
    ![One-Click Explain](images/Explain2.png)
    ![One-Click Explain](images/Explain3.png)
    ![One-Click Explain](images/Explain4.png)
 
-11. Adicione algumas das visualizações disponibilizadas no seu Painel, selecione o **'Check Verde'**, no canto superior das visualizações. 
+5. Adicione algumas das visualizações disponibilizadas no seu Painel, selecione o **'Check Verde'**, no canto superior das visualizações. 
    ![One-Click Explain](images/Explain5.png)
    ![One-Click Explain](images/Explain6.png)
 
-12. Agora selecione o botão **'Adicionar Selecionado'** e veja as visualizações disponíveis no seu Painel.
+6. Agora selecione o botão **'Adicionar Selecionado'** e veja as visualizações disponíveis no seu Painel.
    ![One-Click Explain](images/Explain7.png)
 
-13. Salve seu trabalho. Selecione o ícone do disquete no campo direito superior. E volte a Homepage.
+7. Salve seu trabalho. Selecione o ícone do disquete no campo direito superior. E volte a Homepage.
 ![Salvar Painel](images/Save2.png)
 ![Voltar a Homepage](images/Save3.png)
 
-14. Navegue pelo Painel pronto que foi importado na primeira tarefa. O Workbook (Pasta de Trabalho) **Lab Analytics - Embarcações Brasil**. 
+8. Navegue pelo Painel pronto que foi importado na primeira tarefa. O Workbook (Pasta de Trabalho) **Lab Analytics - Embarcações Brasil**. 
    ![Homepage depois do import](images/Import4.png)
 
 <br>
@@ -189,10 +211,10 @@ Você está pronto para prosseguir para o próximo laboratório.
 <br>
 
 
-## 5️⃣ [EXTRA] Adição de Previsão, Campo Calculado, Filtros e Personalização do Dashboard
+## 6️⃣ [EXTRA] Adição de Previsão, Campo Calculado, Filtros e Personalização do Dashboard
 
 
-5. Outra forma de analisar a mudança períodica da quantidade de embarcações, é pelo gráfico de . Por isso, segure _CTRL+Clique_ nos campos **ANO e QUANTIDADE** na primeira coluna no primeiro ícone (Dados), e arraste os dois para a tela ao lado do gráfico de linha. 
+1. Outra forma de analisar a mudança períodica da quantidade de embarcações, é pelo gráfico de . Por isso, segure _CTRL+Clique_ nos campos **ANO e QUANTIDADE** na primeira coluna no primeiro ícone (Dados), e arraste os dois para a tela ao lado do gráfico de linha. 
    ![Cascata](images/Cascata.png) 
    ![Cascata](images/Cascata2.png) 
 
@@ -200,46 +222,50 @@ Você está pronto para prosseguir para o próximo laboratório.
 
 ### **Campos Calculados**
 
-6. Agora, Vamos criar um campo Calculado para sempre trazer o valor de **QUANTIDADE** do ano anterior ao ano que se refere o dado que está se utilizando agora. Clique com o _botão direito do mouse em cima do **'Meus Cálculos'**_. Selecione **Criar Cálculo ...**
+2. Agora, Vamos criar um campo Calculado para sempre trazer o valor de **QUANTIDADE** do ano anterior ao ano que se refere o dado que está se utilizando agora. Clique com o _botão direito do mouse em cima do **'Meus Cálculos'**_. Selecione **Criar Cálculo ...**
    ![Campo Calculado](images/Calc1.png)
 
-7. Escreva a função no corpo do Novo Cálculo.  
+3. Escreva a função no corpo do Novo Cálculo.  
 
    ```
    AGO(QUANTIDADE, YEAR, 1)
    ```
-8. Verifique se o cálculo está referenciado, ele está referenciado, quando as variáveis ficam coloridas, sendo a função verde (AGO), campo azul (QUANTIDADE).
+4. Verifique se o cálculo está referenciado, ele está referenciado, quando as variáveis ficam coloridas, sendo a função verde (AGO), campo azul (QUANTIDADE).
    ![Campo Calculado](images/Calc2.png)
    ![Campo Calculado](images/Calc3.png)
 
-9. Adicione o nome do cálculo: **'Quantidade do Ano Anterior'**, clique no botão **Validar** para verificar que está tudo certo. E pode Salvar.
+5. Adicione o nome do cálculo: **'Quantidade do Ano Anterior'**, clique no botão **Validar** para verificar que está tudo certo. E pode Salvar.
    ![Campo Calculado](images/Calc4.png)
 
-10. Agora, crie um cálculo para ver a variação da Frota de Naval do Brasil, ano a ano.  Clique com o _botão direito do mouse em cima do **'Meus Cálculos'**_. Selecione **Criar Cálculo ...**
+6. Agora, crie um cálculo para ver a variação da Frota de Naval do Brasil, ano a ano.  Clique com o _botão direito do mouse em cima do **'Meus Cálculos'**_. Selecione **Criar Cálculo ...**
    ![Campo Calculado](images/Calc1.png)
 
-11. Escreva a função no corpo do Novo Cálculo.  
+7. Escreva a função no corpo do Novo Cálculo.  
    ```
    (QUANTIDADE - Quantidade do Ano Anterior)/Quantidade do Ano Anterior
    ```
 
-12. Verifique se o cálculo está referenciado. Ele está referenciado, quando as variáveis ficam coloridas, sendo a função verde, campo azul.
+8. Verifique se o cálculo está referenciado. Ele está referenciado, quando as variáveis ficam coloridas, sendo a função verde, campo azul.
    ![Campo Calculado](images/Calc6.png)
    ![Campo Calculado](images/Calc7.png)
 
-13. Crie uma visualização com a variação em porcentagem do aumento ou diminuição da frota naval por Estado no decorrer dos Anos. Para isso, segure _CTRL+Clique_ nos campos **ANO (ANO)** e **Quantidade do Ano Anterior** (Meus Cálculos) na primeira coluna no primeiro ícone (Dados), e arraste os dois para a tela ao lado do gráfico de linha. 
+9. Crie uma visualização com a variação em porcentagem do aumento ou diminuição da frota naval por Estado no decorrer dos Anos. Para isso, segure _CTRL+Clique_ nos campos **ANO (ANO)** e **Quantidade do Ano Anterior** (Meus Cálculos) na primeira coluna no primeiro ícone (Dados), e arraste os dois para a tela ao lado do gráfico de linha. 
 
    ![Frota de Embarcação Ano a Ano](images/Calc10.png)
 
-14. Adicione o campo **ESTADO** dentro da caixa Cor do gráfico, como indicado na imagem. 
+10. Adicione o campo **ESTADO** dentro da caixa Cor do gráfico, como indicado na imagem. 
    ![Frota de Embarcação Ano a Ano](images/Calc11.png)
 
-15. Se tem o estado GO - Goiás, com uma variação bem grande comparada com os demais, assim como RR - Roraima.  Portanto, será adicionado um filtro desconsiderando os 2 estados. Para isso, adicione o campo **ESTADO** dentro da caixa Filtro do gráfico,
+11. Se tem o estado GO - Goiás, com uma variação bem grande comparada com os demais, assim como RR - Roraima.  Portanto, será adicionado um filtro desconsiderando os 2 estados. Para isso, adicione o campo **ESTADO** dentro da caixa Filtro do gráfico,
    ![Frota de Embarcação Ano a Ano](images/Calc12.png)
    ![Frota de Embarcação Ano a Ano](images/Calc14.png)
    ![Frota de Embarcação Ano a Ano](images/Calc15.png)
 
+<<<<<<< Updated upstream
 16. Clique com o _botão direito_, selecione **Adionar Estatísticas**. E escolha a opção **Linha de Referência**. Deixe na Função Média. 
+=======
+12. Clique com o _botão direito_, selecione **Adicionar Estatísticas**. E escolha a opção **Linha de Referência**. Deixe na Função Média. 
+>>>>>>> Stashed changes
    ![Frota de Embarcação Ano a Ano](images/Calc13.png)
    ![Frota de Embarcação Ano a Ano](images/Calc16.png)
 
@@ -247,43 +273,43 @@ Você está pronto para prosseguir para o próximo laboratório.
 
 ### **Filtros**
 
-5. Criar uma visualização de Nuvem de Palavras e utilizá-la como filtro. 
+13. Criar uma visualização de Nuvem de Palavras e utilizá-la como filtro. 
 Selecione os campos desejados **Embarção e Quantidade**. _Clique com o botão direito_ e escolhe a opção **Selecionar Visualização**, agora selecione o ícone da nuvem de palavras, como na imagem a seguir. 
    ![Nuvem de Palavras](images/Tag1.png)
    ![Nuvem de Palavras](images/Tag2.png)
 
-6. Use uma visualização para filtrar os dados. Ao lado do título da visualização existe um filtro, selecione para o **filtro ficar verde**, isso significa que a **visualização está sendo utilizada como filtro**
+14. Use uma visualização para filtrar os dados. Ao lado do título da visualização existe um filtro, selecione para o **filtro ficar verde**, isso significa que a **visualização está sendo utilizada como filtro**
    ![Nuvem de Palavras como Filtro](images/Tag3.png)
 
-7. Selecione algum item da Nuvem de Palavras e perceba que todas as visualizações vão ser filtradas a partir dela. Como exemplo foi selecionado **Outros**.
+15. Selecione algum item da Nuvem de Palavras e perceba que todas as visualizações vão ser filtradas a partir dela. Como exemplo foi selecionado **Outros**.
    ![Nuvem de Palavras como Filtro](images/Tag4.png)
 
-8. Adicione Título na primeira página do Painel. Na primeira Coluna selecione o segundo ícone do gráfico (Visualizações). Escolha **Caixa de Texto** segure e arraste para a Tela no canto superior da tela. 
+16. Adicione Título na primeira página do Painel. Na primeira Coluna selecione o segundo ícone do gráfico (Visualizações). Escolha **Caixa de Texto** segure e arraste para a Tela no canto superior da tela. 
    ![Título do Painel](images/Titulo.png)
 
-9. Personalize o Título mudando as propriedades, na segunda coluna segundo ícone, adicione uma cor ao fundo, deixe o texto centralizado e outras personalizações como mostra na imagem a seguir.
+17. Personalize o Título mudando as propriedades, na segunda coluna segundo ícone, adicione uma cor ao fundo, deixe o texto centralizado e outras personalizações como mostra na imagem a seguir.
    ![Título do Painel](images/Titulo2.png)
 
 <br>
 
 ### **Variedade de Filtros**
-10. Adicione uma Caixa de Filtro na Tela, selecione o campo **Ano** para utilizar como Filtro, arraste e solte até ficar ao lado do Título, canto direito superior.  
+18. Adicione uma Caixa de Filtro na Tela, selecione o campo **Ano** para utilizar como Filtro, arraste e solte até ficar ao lado do Título, canto direito superior.  
    ![Filtro Seletor](images/Filtro10.png)
 
-11. Na gramática do Painel, selecione o tipo de visualização que quer **Filtros do Painel de Controle**. E selecione um Ano do Filtro.
+19. Na gramática do Painel, selecione o tipo de visualização que quer **Filtros do Painel de Controle**. E selecione um Ano do Filtro.
    ![Filtro Seletor](images/Filtro11.png)
    ![Filtro Seletor](images/Filtro12.png)
 
-12. Personalize o nome do Filtro, selecione na segunda coluna no segundo ícone (Propriedades). Atualize o Label para **Personalizado** e deixe como **ANO**.
+20. Personalize o nome do Filtro, selecione na segunda coluna no segundo ícone (Propriedades). Atualize o Label para **Personalizado** e deixe como **ANO**.
    ![Filtro Seletor](images/Filtro13.png)   
 
-13. Também existe a possibilidade de utilizar filtros no cabeçalho do Painel. Selecione o campo **ESTADO** na primeira coluna no primeiro ícone (Dado). Segure e arraste para o campo superior da tela onde há um '+' com Clique aqui ou arraste os dados para adicionar um filtro".
+21. Também existe a possibilidade de utilizar filtros no cabeçalho do Painel. Selecione o campo **ESTADO** na primeira coluna no primeiro ícone (Dado). Segure e arraste para o campo superior da tela onde há um '+' com Clique aqui ou arraste os dados para adicionar um filtro".
    ![Filtro Seletor](images/Filtro15.png)   
 
-14. Faça o mesmo com o campo **EMBARCAÇÃO**, adicionando ele na barra de filtro superior do Painel. 
+22. Faça o mesmo com o campo **EMBARCAÇÃO**, adicionando ele na barra de filtro superior do Painel. 
    ![Filtro Seletor](images/Filtro16.png)  
 
-15. Renomeie o nome da Tela 1 para **'Geral'**, Abas no canto inferior do Painel. 
+23. Renomeie o nome da Tela 1 para **'Geral'**, Abas no canto inferior do Painel. 
    ![Tela 1 para Geral](images/Geral.png)  
 
 <br>
@@ -293,7 +319,7 @@ Selecione os campos desejados **Embarção e Quantidade**. _Clique com o botão 
 <br>
 
 
-## 6️⃣ [EXTRA - OPICIONAL] Passos para criar as primeiras visualizações
+## 7️⃣ [EXTRA - OPICIONAL] Passos para criar as primeiras visualizações
 
 1. Na Homepage do OAC, selecione o Menu de Hamburguer (Canto Superior Esquerdo), Selecione Dados e a Aba Conjunto de Dados (Dataset).
 ![Homepage - Conjunto de Dados](images/Dataset.png)
