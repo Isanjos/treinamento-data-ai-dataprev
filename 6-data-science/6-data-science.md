@@ -1,4 +1,12 @@
-# Oracle Cloud Data Science
+## Oracle Cloud Data Science
+A seguir o passo a passo do laboratório.
+
+### **Recursos e Suporte**:
+
+- **Download dos arquivos para Laboratório**: [FAST-TRACK-DATAPREV](https://objectstorage.us-ashburn-1.oraclecloud.com/p/l7yzt-bPV3jgT2Dqb6w-cn0sOVI8hLojugAJ32GtH_-KBHwB24mxzkw80he7CnWj/n/idi1o0a010nx/b/bucket-dataprev/o/DATA_AI_FAST_TRACK.zip)
+- **Documentação da Oracle Cloud**: [OCI Data Science](https://docs.oracle.com/en-us/iaas/data-science/using/home.htm)
+
+### _**Aproveite sua experiência na Oracle Cloud!**_
 
 ## 📌 Introdução
 
@@ -53,13 +61,6 @@ Utilizar **OCI Data Science** e a **API do OCI Generative AI** para extrair info
 - Explorar o **LLAMA 3.2 90B** para análise avançada de texto e imagens.  
 
 <br>
-### **Recursos e Suporte**:
-
-- **Download dos Documentos**: Neste laboratório utilizaremos documentos de identificação anonimizados. Faça o dowload dos arquivos e do notebook a seguir. [FAST-TRACK-DATAPREV](https://objectstorage.us-ashburn-1.oraclecloud.com/p/l7yzt-bPV3jgT2Dqb6w-cn0sOVI8hLojugAJ32GtH_-KBHwB24mxzkw80he7CnWj/n/idi1o0a010nx/b/bucket-dataprev/o/DATA_AI_FAST_TRACK.zip)
-- **Documentação da Oracle Cloud**: [OCI Data Science](https://docs.oracle.com/en-us/iaas/data-science/using/home.htm)
-
-### _**Aproveite sua experiência na Oracle Cloud!**_
-
 
 ## 1️⃣ Acesso ao notebook OCI Data Science
 

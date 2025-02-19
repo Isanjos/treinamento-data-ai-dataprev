@@ -24,9 +24,6 @@ A filosofia da solução gira ao redor dos conceitos de Augmented Analytics, tem
 
 O objetivo deste workshop é demonstrar de forma prática como utilizar a ferramenta do Oracle Analytics Cloud e algumas funcionalidade de AI&ML embarcadas no OAC. Durante o workshop, você aprenderá a criar visualizações, adicionar estatísticas nas análises em um cenário que dados abertos da Marinha Brasileira (https://dados.gov.br/dados/conjuntos-dados/embarcacoes).
 
-### _**Aproveite sua experiência na Oracle Cloud!**_
-<br>
-
 
 ## 1️⃣ Criação do Oracle Analytics Cloud
 

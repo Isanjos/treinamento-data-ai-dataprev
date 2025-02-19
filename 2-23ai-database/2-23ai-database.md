@@ -1,4 +1,13 @@
-# Oracle 23ai Vector Search
+## Oracle 23ai Vector Search
+
+A seguir o passo a passo do laboratório.
+### **Recursos e Suporte**:
+- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
+- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
+
+
+### _**Aproveite sua experiência na Oracle Cloud!**_
+
 
 ## 📌 Introdução
 
@@ -31,13 +40,6 @@ O que você aprenderá:
 - Explorar as vantagens do Oracle 23c AI na integração de dados relacionais e semânticos.
 
 <br>
-### **Recursos e Suporte**:
-
-- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
-- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
-
-
-### _**Aproveite sua experiência na Oracle Cloud!**_
 
 
 ## 1️⃣ Acessar o Autonomous Database

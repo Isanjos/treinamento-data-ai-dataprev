@@ -1,4 +1,16 @@
-# Oracle Generative AI Agents
+## Oracle Generative AI Agents
+
+A seguir o passo a passo do laboratório.
+### **Recursos e Suporte**:
+
+- **Download dos PDFs**: Neste laboratório utilizaremos dois documentos:
+     - [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas): Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
+     - [Revista Dataprev Resultados nº 16](https://www.dataprev.gov.br/acompanhe-dataprev-publicacoes/revista-dataprev-resultados): Para o nosso exemplo, utilizaremos o arquivo **Revista Dataprev Resultados nº 16**.
+- **Documentação da Oracle Cloud**: [Generative AI Agents](https://docs.oracle.com/pt-br/iaas/Content/generative-ai-agents/home.htm)
+- **Tutoriais**: [Deploy an ODA Chatbot powered by Generative AI Agents](https://apexapps.oracle.com/pls/apex/f?p=133:180:2908048658105::::wid:4022)
+
+
+### _**Aproveite sua experiência na Oracle Cloud!**_
 
 ## 📌 Introdução
 
@@ -39,20 +51,6 @@ O que você aprenderá:
 - Explorar como implementar a funcionalidade de Retrieval-Augmented Generation (RAG) para consultar documentos personalizados com eficiência e contexto.
 
 <br>
-### **Recursos e Suporte**:
-
-- **Download dos PDFs**: Neste laboratório utilizaremos dois documentos:
-     - [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas): Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
-     - [Revista Dataprev Resultados nº 16](https://www.dataprev.gov.br/acompanhe-dataprev-publicacoes/revista-dataprev-resultados): Para o nosso exemplo, utilizaremos o arquivo **Revista Dataprev Resultados nº 16**.
-
-- **Documentação da Oracle Cloud**: [Generative AI Agents](https://docs.oracle.com/pt-br/iaas/Content/generative-ai-agents/home.htm)
-- **Tutoriais**: [Deploy an ODA Chatbot powered by Generative AI Agents](https://apexapps.oracle.com/pls/apex/f?p=133:180:2908048658105::::wid:4022)
-
-
-### _**Aproveite sua experiência na Oracle Cloud!**_
-
-
-
 
 ## 1️⃣ Interface de Interação com o Assistente Virtual
 

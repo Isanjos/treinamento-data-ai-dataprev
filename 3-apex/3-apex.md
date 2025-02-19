@@ -1,4 +1,15 @@
-# Oracle APEX
+## Oracle APEX
+
+A seguir o passo a passo do laboratório.
+### **Recursos e Suporte**:
+- **Download da Aplicação**: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/rYsZFM9_XUMb7t92b6jFH3B-5oB78j3URY3xlrK1LHXlVAjs_C1uD6xWoV-qtfpW/n/idi1o0a010nx/b/bucket-dataprev/o/f102.sql)
+- **Download do PDF**: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
+- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
+- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
+
+
+### _**Aproveite sua experiência na Oracle Cloud!**_
+
 
 ## 📌 Introdução
 
@@ -24,17 +35,6 @@ O que você aprenderá:
   - Realizar de testes práticos para validar a aplicação.  
 
 <br>
-### **Recursos e Suporte**:
-
-- **Download da Aplicação**: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/rYsZFM9_XUMb7t92b6jFH3B-5oB78j3URY3xlrK1LHXlVAjs_C1uD6xWoV-qtfpW/n/idi1o0a010nx/b/bucket-dataprev/o/f102.sql)
-
-- **Download do PDF**: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
-- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
-- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
-
-
-### _**Aproveite sua experiência na Oracle Cloud!**_
-
 
 ## 1️⃣ Criação de Workspace e Import de aplicação em ambiente APEX
 
