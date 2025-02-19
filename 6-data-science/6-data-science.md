@@ -64,7 +64,7 @@ Utilizar **OCI Data Science** e a **API do OCI Generative AI** para extrair info
 
 ## 1️⃣ Acesso ao notebook OCI Data Science
 
-### Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Data Science**
+ Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Data Science**
 
 ![Create Project](images/create-project.png)
 
