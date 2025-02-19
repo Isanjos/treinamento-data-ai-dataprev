@@ -1,4 +1,13 @@
-# Provisionar Serviços do OCI
+## Provisionar Serviços do OCI
+
+A seguir o passo a passo do laboratório.
+### **Recursos e Suporte**:
+
+- **Documentação da Oracle Cloud**: [Documentação do Oracle Cloud Infrastructure](https://docs.oracle.com/pt-br/iaas/Content/home.htm)
+- **Introdução**: [Why Oracle Cloud Infrastructure](https://www.youtube.com/watch?v=ljiUqro6_Mc)
+
+
+### _**Aproveite sua experiência na Oracle Cloud!**_
 
 ## 📌 Introdução
 
@@ -24,13 +33,6 @@ O que você aprenderá:
 - Fazer a configuração do AI Agent.
 
 <br>
-### **Recursos e Suporte**:
-
-- **Documentação da Oracle Cloud**: [Documentação do Oracle Cloud Infrastructure](https://docs.oracle.com/pt-br/iaas/Content/home.htm)
-- **Introdução**: [Why Oracle Cloud Infrastructure](https://www.youtube.com/watch?v=ljiUqro6_Mc)
-
-
-### _**Aproveite sua experiência na Oracle Cloud!**_
 
 
 ## 1️⃣ Validação de Região
