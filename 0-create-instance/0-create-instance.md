@@ -30,7 +30,7 @@ O que você aprenderá:
 
 - Criar um banco de dados autônomo (Autonomous Database) no Oracle Cloud Infrastructure (OCI);
 - Provisionar Oracle Analytics Cloud, plataforma de autoatendimento de Análise de Negócio;
-- Fazer a configuração do AI Agent.
+- Fazer a configuração do OCI Data Science.
 
 <br>
 
@@ -52,45 +52,56 @@ O que você aprenderá:
 
 1. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência navegue até a página de gestão de autonomous databases.
 
-![Autonomous Acess](images/autonomous-acess.png)
+![Autonomous Acess](images/Homepage-ADB.png)
 
-2. Na página de gestão de Autonomous Databases, clique em create autonomous database. Selecione **ATP ou ADW**
-  
+2. Na página de gestão de Autonomous Databases, clique em **Create Autonomous Database**.
+Escolha o **Compartment**: <<'NomeTenancy'>>**root**
+![Create Autonomous](images/CreateADB.png)
+![Create Autonomous](images/CompartmentADB.png)
+
+3. Selecione **ADW - Data Warehouse**
 ![Create Autonomous](images/create-autonomous.png)
 
-3. Escolha a versão 23ai para o banco de dados:
+4. Escolha a versão 23ai para o banco de dados:
 
 ![Create 23AI](images/create-23ai.png)
 
-4. Coloque a senha **WORKSHOPsec2019##** , escolha **secure access from everywhere** e clique em **Create Autonomous Database**:
+5. Coloque a senha **WORKSHOPsec2019##** , escolha **secure access from everywhere** e clique em **Create Autonomous Database**:
 <br><br>
 
 ![Secure Acess](images/secure-acess.png)
 
-5. Aguarde até a conclusão da criação: 
+6. Vá para o próximo laboratório.
+<br>Status do Autonomous Database:
 - Ícone amarelo = criando; 
 - Ícone verde = pronto para uso;
+
 ![Yellow ADW](images/yellow-adw.png)
 ![Green ADW](images/green-adw.png)
 
+
 ## 3️⃣ Criação do Oracle Analytics Cloud
 
-Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência navegue até a página de gestão do Oracle Analytics Cloud.
+1. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência navegue até a página de gestão do Oracle Analytics Cloud.
 
 ![Analytics Cloud Acess](images/AcessoAnalytics.png)
 
-Na página de gestão do Oracle Analytics Cloud, clique em **Create Instance**.
+2. Na página de gestão do Oracle Analytics Cloud, clique em **Create Instance**.
   
 ![Create Analytics Cloud](images/CreateOAC.png)
 
-Dê um nome a instância do Analytics Cloud e mantenha as outras configurações como na imagem a seguir. Ao finalizar clique em **Create**:
+3. Dê um nome a instância do Analytics Cloud.
+<br>Escolha o **Compartment**: <<'NomeTenancy'>>**root** e mantenha as outras configurações padrão. Ao finalizar clique em **Create**.
 
 ![Configurando Analytics Cloud](images/CreateOAC1.png)
 ![Configurando Analytics Cloud](images/CreateOAC2.png)
 
-Aguarde até a conclusão da criação: 
+4. Vá para o próximo laboratório.
+<br>Status do Oracle Analytics Cloud:
 - Ícone amarelo = criando; 
 - Ícone verde = pronto para uso;
+
+![Yellow OAC](images/CreateOAC4.png)
 ![Green OAC](images/CreateOAC3.png)
 
 
@@ -100,11 +111,12 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
 
 ![Copy Compartment](images/copy-compartment.png)
 
-Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Identity & Security ⮕ Policies**
+1. Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Identity & Security ⮕ Policies**
 
 ![Acess Policies](images/acess-policies.png)
 
-Clique em **Create Policy**. Em seguida, selecione **Show Manual Editor** e aidicione a frase abaixo. Em seguida, clique em **Create**.
+2.Clique em **Create Policy**. Em seguida, dê um nome e uma descrição.
+<br> Selecione **Show Manual Editor** e adicione a frase abaixo. Em seguida, clique em **Create**.
 
     <copy>  
     allow any-user to manage generative-ai-family in tenancy
@@ -115,19 +127,19 @@ Clique em **Create Policy**. Em seguida, selecione **Show Manual Editor** e aidi
 
 ![Policy Data Science](images/policy-data-science.png)
 
-Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
+3. Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
 
 ![Create Project](images/create-project.png)
 
-Clique em **Create Project**, defina um nome para o projeto e em seguida, clique em **Create**, na região inferior da tela.
+4. Clique em **Create Project**, defina um nome para o projeto e em seguida, clique em **Create**, na região inferior da tela.
 
 ![Name Project](images/name-project.png)
 
-Selecione o nome do projeto e em seguida, clique em **Create Notebook Session**
+5. Selecione o nome do projeto e em seguida, clique em **Create Notebook Session**
 
 ![Notebook Session](images/notebook-session.png)
 
-Considere as seguintes configurações e em seguida, clique em **Create**:
+6. Considere as seguintes configurações e em seguida, clique em **Create**:
 
 - **Name:** dataprev-fast-track
 - **Shape:** VM.Standard.E4.Flex Virtual machine, 1 core OCPU, 16 GB memory. Caso não disponível, selecionar VM.Standard.E3.Flex
@@ -135,7 +147,41 @@ Considere as seguintes configurações e em seguida, clique em **Create**:
 
 ![Config Notebook Session](images/config-notebook-session.png)
 
-Após a criação do OCI Data Science, você está pronto para prosseguir para o próximo laboratório.
+Você está pronto para prosseguir para o próximo laboratório.
+
+
+## 5️⃣ [Extra] Situação das Intâncias
+
+1. Clique no símbulo da Oracle Cloud, canto superior esquerdo, na homepage os últimos serviços acessados e o status deles. Como a imagem a seguir.
+![Homepage Status](images/HomepageStatus.png)
+
+### **[OPCIONAL]**
+2. Para ver cada uma das instâncias pode clicar no nome da instância ou navegar pelo OCI acessando os serviços, passos para acessar essas instâncias a seguir.
+
+3. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência selecione **Oracle Databse ⮕ Autonomous Database**. Selecione seu Autonomous Database.
+
+![Autonomous Acess](images/Homepage-ADB.png)
+![Green ADW](images/green-adw.png)
+
+4. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência selecione **Analytics & AI ⮕ Oracle Analytics Cloud**. Selecione seu Oracle Analytics.
+
+![Analytics Cloud Acess](images/AcessoAnalytics.png)
+![Green OAC](images/CreateOAC3.png)
+
+5. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência selecione **Analytics & AI ⮕ Data Science**. Selecione seu projeto.
+
+![Create Project](images/create-project.png)
+![Notebook Session](images/notebook-session.png)
+
+6. Selecione seu Notebook. 
+![Notebook Session](images/Notebook.png)
+
+
+<br>
+
+🎉🎉 Parabéns, você terminou os Laboratórios de **Criação dos Serviços** 🎉🎉
+
+<br>
 
 ## 👥 Agradecimentos
 

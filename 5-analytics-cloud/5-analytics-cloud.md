@@ -36,7 +36,7 @@ Na página de gestão do Oracle Analytics Cloud, clique em **Create Instance**.
   
 ![Create Analytics Cloud](images/CreateOAC.png)
 
-Dê um nome a instância do Analytics Cloud e mantenha as outras configurações como na imagem a seguir. Ao finalizar clique em **Create**:
+Dê um nome a instância do Analytics Cloud, e mantenha as outras configurações com o padrão. Ao finalizar clique em **Create**:
 
 ![Configurando Analytics Cloud](images/CreateOAC1.png)
 ![Configurando Analytics Cloud](images/CreateOAC2.png)
