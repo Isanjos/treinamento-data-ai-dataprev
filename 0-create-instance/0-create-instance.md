@@ -116,7 +116,11 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
 ![Acess Policies](images/acess-policies.png)
 
 2.Clique em **Create Policy**. Em seguida, dê um nome e uma descrição.
+<br> Escolha o **Compartment**: <<'NomeTenancy'>>**root**
 <br> Selecione **Show Manual Editor** e adicione a frase abaixo. Em seguida, clique em **Create**.
+
+
+
 
     <copy>  
     allow any-user to manage generative-ai-family in tenancy
