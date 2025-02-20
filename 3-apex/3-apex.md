@@ -191,6 +191,12 @@ Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado.
 
 **Se não houver erro, você terá concluído com sucesso o workshop.** Sinta-se à vontade para fazer o upload de outros arquivos ou explorar realizando novas perguntas ao Assistente AI.
 
+## 5️⃣ [Extra] Testar APEX
+
+1. Para testar o APEX, entre no link a seguir:
+[APEX do Laboratório finalizado](https://g51069da5907266-adwfasttrack.adb.sa-saopaulo-1.oraclecloudapps.com/ords/r/demo/demo/assistente-ai?session=212550394555216)
+2. Execute as ações da Atividade 4 (atividade anterior).
+
 
 ## 👥 Agradecimentos
 
