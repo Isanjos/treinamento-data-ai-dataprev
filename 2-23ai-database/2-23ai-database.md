@@ -50,7 +50,7 @@ Selecione sua instância do Autonomous Database criado no laboratório inicial. 
 Clique no ícone chamado **Database Actions** e selecione **SQL**.
 ![Database Actions](images/database-actions.png)
 
-**Somente caso seja requisitado**, o usuário é **admin** e a senha é a **WORKSHOPsec2019##** , caso utilizado na criação do autonomous database da etapa anterior.
+**Somente caso seja requisitado**, o usuário é **admin** e a senha é a **WORKSHOPsec2019##** , utilizado na criação do autonomous database da etapa anterior.
 <br> 
 <br>
 Feche todos os tutoriais que aparecerão na página.

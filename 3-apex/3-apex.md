@@ -1,12 +1,24 @@
 ## Oracle APEX
 
-A seguir o passo a passo do laboratório.
-### **Recursos e Suporte**:
-- **Download da Aplicação**: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/rYsZFM9_XUMb7t92b6jFH3B-5oB78j3URY3xlrK1LHXlVAjs_C1uD6xWoV-qtfpW/n/idi1o0a010nx/b/bucket-dataprev/o/f102.sql)
-- **Download do PDF**: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
-- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
-- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
+# 🎯 **Objetivos**
 
+  Guiar os participantes na criação e configuração de um ambiente APEX no Oracle Cloud Infrastructure (OCI) para implementar uma aplicação baseada em IA generativa.  
+
+O que você aprenderá:
+
+  - Criar um workspace no APEX.  
+  - Importar e instalar uma aplicação.  
+  - Ajustar credenciais para integração com serviços do OCI.  
+  - Realizar de testes práticos para validar a aplicação.  
+
+# ⚠️ **ATENÇÃO**:
+
+**Download do arquivo ZIP:** [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
+<br>
+<br>
+Arquivos utilizados neste laboratório:
+  -  **APEX\_FT\_SAO\_PAULO.sql** ou **APEX\_FT\_CHICAGO.sql** (Verifique a região do seu ambiente)
+  - **VIAGEM\_A\_SERVICO.PDF**
 
 ### _**Aproveite sua experiência na Oracle Cloud!**_
 
@@ -21,31 +33,20 @@ A seguir o passo a passo do laboratório.
 
 > Com o Oracle APEX, desenvolvedores podem criar aplicações empresariais modernas por meio de uma interface intuitiva que combina design visual, componentes integrados e funcionalidades avançadas, como gráficos interativos, relatórios dinâmicos e dashboards. O APEX aproveita as capacidades nativas do Oracle Database, como segurança, alta disponibilidade e desempenho, permitindo a criação de workspaces, o upload de aplicações e a integração com serviços externos via credenciais e APIs. Com poucos cliques, é possível importar arquivos SQL, configurar parâmetros de segurança e realizar customizações rápidas e eficientes.
 
-<br>
-
-### 📌 **Objetivos**
-
-  Guiar os participantes na criação e configuração de um ambiente APEX no Oracle Cloud Infrastructure (OCI) para implementar uma aplicação baseada em IA generativa.  
-
-O que você aprenderá:
-
-  - Criar um workspace no APEX.  
-  - Importar e instalar uma aplicação.  
-  - Ajustar credenciais para integração com serviços do OCI.  
-  - Realizar de testes práticos para validar a aplicação.  
-
-<br>
+### **Recursos e Suporte**:
+- **Download do PDF**: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
+- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
+- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
 
 ## 1️⃣ Criação de Workspace e Import de aplicação em ambiente APEX
 
-Para acessar a URL da instância APEX na Console do Oracle Cloud Infrastructure (OCI), siga os passos a seguir. 
+**Para acessar a URL da instância APEX na Console do Oracle Cloud Infrastructure (OCI) siga os passos a seguir.**
 
 Inicialmente, retorne ao console da OCI. Em seguida, navegue até a página do seu Autonomous Database. Dentro da página da instância do banco de dados, localize e clique na opção **"Tool Configuration"**. Lá, você encontrará a URL da instância APEX. **Copie essa URL e abra em seu navegador.**
 
    ![Tool Configuration](images/tool-config.png)
 
 Na página que será aberta ao acessar a URL da instância APEX, **insira a senha de acesso ao workspace admin**, criada na etapa anterior (**WORKSHOPsec2019##**).
-<br>
 
    ![Apex Password](images/apex-password.png)
 
@@ -54,6 +55,8 @@ Em seguida, clique na opção **Create Workspace**. Na tela seguinte, escolha a 
    ![Existing Schema](images/existing-schema.png)
 
 Na sequência, preencha o formulário como o exemplo abaixo (recomendamos a senha **WORKSHOPsec2019##**). E clique em **Create Workspace** para finalizar.
+
+> **ATENÇÃO**: Verifique se utilizou a senha recomendada **WORKSHOPsec2019##**
 
    ![Create Workspace](images/create-workspace.png)
 
@@ -71,15 +74,21 @@ Encerre a sessão do usuário **ADMIN** clicando em **Sign Out**, localizado na 
 
 Faça o login no usuário **DEMO** criado nas etapas anteriores utilizando as credenciais de acesso indicadas abaixo.
 
+> **ATENÇÃO**: Verifique se utilizou a senha recomendada **WORKSHOPsec2019##**
+
    ![Login](images/login.png)
 
 Clique em **App Builder** e, em seguida, selecione **Import**.
 
    ![Import](images/import.png)
 
-Na página que será aberta, faça o upload do arquivo **f102.sql** utilizando o seguinte link: [f102.sql](https://objectstorage.us-ashburn-1.oraclecloud.com/p/rYsZFM9_XUMb7t92b6jFH3B-5oB78j3URY3xlrK1LHXlVAjs_C1uD6xWoV-qtfpW/n/idi1o0a010nx/b/bucket-dataprev/o/f102.sql).
+Na página que será aberta, faça o upload do arquivo **APEX\_FT\_SAO\_PAULO.sql** ou **APEX\_FT\_CHICAGO.sql** (Verifique a região do seu ambiente)
 
    ![Aplicação f102](images/f102.png)
+
+Clique em **Next:**
+
+   ![Import Next](images/import-next.png)
 
 Aceite as configurações padrão e clique em **Install Application** para prosseguir com a instalação.
 
@@ -110,7 +119,7 @@ Para preencher corretamente essa credencial, é necessário obter algumas inform
 
 Na tela **User Settings**, localize a guia **API Keys** no canto inferior esquerdo. Clique nela e siga as instruções do assistente (wizard) para criar um par de chaves de API. 
 
-> **ATENÇÃO: Certifique-se de fazer o download das chaves em um local seguro, pois será necessária para configurar a credencial na próxima etapa:**
+> **ATENÇÃO: Certifique-se de fazer o download das chaves em um local seguro, pois será necessária para configurar a credencial na próxima etapa. Após o dowload, clique em ADD**
 > 
    ![API Keys](images/api-keys.png)
 
@@ -120,7 +129,7 @@ O preenchimento do formulário no APEX exigirá informações específicas que p
 - **OCID Tenancy** (Coletado no Configuration File Preview)
 - **OCI Private Key** (Abra o arquivo **.pem** cujo download foi realizado em um bloco de notas e copie o conteúdo)
 
-Caso você tenha fechado a página com os dados, clique nos **três pontos** ao lado direito do fingerprint e clique em **View Configuration File**
+Caso você tenha fechado a página com os dados, clique nos **três pontos** em **API Keys** ao lado direito do fingerprint e clique em **View Configuration File**
 
    ![Config Tenancy](images/config-tenancy.png)
    ![OCID API APEX](images/ocid-api-apex.png)
@@ -135,7 +144,7 @@ Acesse o **App Builder** e clique na aplicação que você instalou recentemente
 
    ![APP Builder API](images/app-builder-api.png)
 
-Selecione em **Shared Components -> REST Data Resources**
+Selecione em **Shared Components ⮕ REST Data Resources**
 
    ![Shared Components](images/shared-components.png)
    ![Rest Data Resources](images/rest-data-resources.png)
@@ -155,11 +164,13 @@ Com a configuração da credencial concluída, podemos testar a aplicação. Par
 
    ![Run Application](images/run-application.png)
 
-Clique em **Arquivos e Normas**.
+Clique no ícone **(☰)** e selecione a aba **Arquivos e Normas**.
 
    ![Assistente AI](images/assistente-ai.png)
 
-Seguiremos com o upload de um arquivo PDF para dentro da aplicação. Qualquer PDF pode ser utilizado, mas, para fins didáticos deste workshop, recomendamos as normas disponíveis no link: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
+Seguiremos com o upload de um arquivo PDF para dentro da aplicação. **Qualquer PDF pode ser utilizado**, mas, para fins didáticos deste workshop, recomendamos as normas disponíveis no link: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
+
+> **ATENÇÃO:** O documento PDF também está disponível no arquivo zip [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
 
    ![Dataprev Site](images/dataprev-site.png)
 
@@ -184,7 +195,7 @@ Se o upload for concluído com sucesso, sua tela deverá se assemelhar ao exempl
 
    ![Row Created](images/row-created.png)
 
-Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado. Por exemplo, você pode perguntar: **"COMO FAZER ALTERAÇÃO DE VIAGEM"**.
+Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado. Por exemplo, você pode perguntar: **"COMO FAZER UMA ALTERAÇÃO DE VIAGEM?"**.
 
    ![Question](images/question.png)
 
