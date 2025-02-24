@@ -123,16 +123,15 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
 ![Acess Policies](images/acess-policies.png)
 
 
-2. Clique em **Create Policy**. Em seguida, dê um nome e uma descrição.
- - **NOME: policies-data-science** 
- - **DESCRIÇÃO: Políticas para Data Science**
-  
+2. Clique em **Create Policy**. 
 > **ATENÇÃO:** Selecione o **Compartment** com nome de ```<NomeTenancy>(root)```
 <br> 
   
 ![Create Policies](images/create-policies.png)
 
-3. Escolha o **Compartment**: <<'NomeTenancy'>>**root**
+3. Escolha o **Compartment**: <<'NomeTenancy'>>**root**. Em seguida, dê um nome e uma descrição.
+ - **NOME: policies-data-science** 
+ - **DESCRIÇÃO: Políticas para Data Science**
 
 ![Policy Data Science](images/Root10.png)
 ![Policy Data Science](images/policy-data-science.png)
