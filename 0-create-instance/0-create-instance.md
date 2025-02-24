@@ -85,8 +85,21 @@ OCI Dedicated Region e Oracle Alloy são os únicos produtos que fornecem mais d
 
 ![Yellow ADW](images/yellow-adw.png)
 
+## 3️⃣ Deletar Instâncias de Compute
+1. Clique no menu **(☰)** e selecione **Compute ⮕ Intences**
+![Compute](images/Compute01.png)
 
-## 3️⃣ Criação do Oracle Analytics Cloud
+2. Verefique que está no compartimento **Compartimento-Trial**
+![Compute](images/Compute02.png)
+
+3. Selecione as máquinas que devem ser deletadas, clique no botão Actions, escolha **Terminate**
+![Compute](images/Compute03.png)
+
+4. Selecione as caixas de aviso para deletar as máquinas e clique em **Terminate**
+![Compute](images/Compute04.png)
+![Compute](images/Compute05.png)
+
+## 4️⃣ Criação do Oracle Analytics Cloud
 
 1. Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Analytics Cloud**.
 
@@ -112,7 +125,7 @@ OCI Dedicated Region e Oracle Alloy são os únicos produtos que fornecem mais d
 ![Yellow OAC](images/CreateOAC4.png)
 
 
-## 4️⃣ Criação de Notebook OCI Data Science
+## 5️⃣ Criação de Notebook OCI Data Science
 
 Antes de criar o ambiente de código, vamos configurar as permissões necessárias para a interação entre os serviços.
 
@@ -168,7 +181,7 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
 Você está pronto para prosseguir para o próximo laboratório.
 
 
-## 5️⃣ [Extra] Situação das Instâncias
+## 6️⃣ [Extra] Situação das Instâncias 
 
 1. Clique no símbolo da Oracle Cloud, no canto superior esquerdo. Na página inicial, você verá os últimos serviços acessados e o status de cada um, conforme mostrado na imagem a seguir.
 
