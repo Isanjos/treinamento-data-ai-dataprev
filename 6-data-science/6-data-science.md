@@ -104,7 +104,7 @@ Com o terminal aberto, cole o código abaixo para buscar o caminho do conda envi
     </copy>  
 <!-- Separador -->
 
-Copie o caminho indicado acima, e utilize no código abaixo.
+Copie o caminho indicado acima, substitua o caminho no código abaixo e utilize no código no terminal.
 
     <copy>  
     conda activate <caminho-do-ambiente>  
