@@ -37,7 +37,7 @@ O que você aprenderá:
 
 ## 1️⃣ Validação de Região
 
-1. Faça o login no Oracle Cloud Infrastructure (OCI) e valide se a região de Chicago se encontra disponível para uso.
+1. Faça o login no [Oracle Cloud Infrastructure (OCI)](https://cloud.oracle.com/) e valide se a região de Chicago se encontra disponível para uso.
 
    ![Validate Region](images/validate-region.png " ")
 
@@ -115,35 +115,35 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
 
 ![Acess Policies](images/acess-policies.png)
 
-2.Clique em **Create Policy**. Em seguida, dê um nome e uma descrição.
-<br> Escolha o **Compartment**: <<'NomeTenancy'>>**root**
-<br> Selecione **Show Manual Editor** e adicione a frase abaixo. Em seguida, clique em **Create**.
+2. Clique em **Create Policy**. Em seguida, dê um nome e uma descrição.
 
+![Create Policies](images/create-policies.png)
 
+3. Escolha o **Compartment**: <<'NomeTenancy'>>**root**
 
+![Policy Data Science](images/Root10.png)
+![Policy Data Science](images/policy-data-science.png)
+
+4.Selecione **Show Manual Editor** e adicione a frase abaixo. Copie e cole a frase exatamente como está abaixo. Em seguida, clique em **Create**.
 
     <copy>  
     allow any-user to manage generative-ai-family in tenancy
     </copy>  
 <!-- Separador -->
 
-![Create Policies](images/create-policies.png)
-
-![Policy Data Science](images/policy-data-science.png)
-
-3. Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
+5. Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
 
 ![Create Project](images/create-project.png)
 
-4. Clique em **Create Project**, defina um nome para o projeto e em seguida, clique em **Create**, na região inferior da tela.
+6. Clique em **Create Project**, defina um nome para o projeto e em seguida, clique em **Create**, na região inferior da tela.
 
 ![Name Project](images/name-project.png)
 
-5. Selecione o nome do projeto e em seguida, clique em **Create Notebook Session**
+7. Selecione o nome do projeto e em seguida, clique em **Create Notebook Session**
 
 ![Notebook Session](images/notebook-session.png)
 
-6. Considere as seguintes configurações e em seguida, clique em **Create**:
+8. Considere as seguintes configurações e em seguida, clique em **Create**:
 
 - **Name:** dataprev-fast-track
 - **Shape:** VM.Standard.E4.Flex Virtual machine, 1 core OCPU, 16 GB memory. Caso não disponível, selecionar VM.Standard.E3.Flex
