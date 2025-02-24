@@ -148,7 +148,8 @@ Clique no ícone da pasta ao lado do nome DOCUMENTOS para retornar à pasta inic
 ![Return Folder](images/return-folder.png)
 
 Clique **duas vezes** no notebook e selecione o kernel correto na região direita superior, como indicado na imagem:
-
+![Abrir Notebook](images/Notebook10.png)
+![Select Kernel](images/Notebook11.png)
 ![Select Kernel](images/select-kernel.png)
 
 ## 4️⃣ Processamento do código Notebook OCI Data Science

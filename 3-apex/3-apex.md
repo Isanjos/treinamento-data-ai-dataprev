@@ -38,7 +38,16 @@ Arquivos utilizados neste laboratório:
 - **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
 - **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
 
-## 1️⃣ Criação de Workspace e Import de aplicação em ambiente APEX
+## 1️⃣ Testar APEX
+
+1. Para testar o APEX, entre no link a seguir:
+[APEX do Laboratório finalizado](https://g51069da5907266-adwfasttrack.adb.sa-saopaulo-1.oraclecloudapps.com/ords/r/demo/demo/assistente-ai?session=212550394555216)
+2. Execute as ações da Atividade 4 (atividade anterior).
+3. Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado. Por exemplo, você pode perguntar: **"COMO FAZER ALTERAÇÃO DE VIAGEM"**.
+
+   ![Question](images/question.png)
+
+## 2️⃣ Criação de Workspace e Import de aplicação em ambiente APEX
 
 **Para acessar a URL da instância APEX na Console do Oracle Cloud Infrastructure (OCI) siga os passos a seguir.**
 
@@ -102,7 +111,7 @@ Por fim, clique na aba **App Builder** para retornar à interface principal de d
 
    ![App Builder](images/app-builder.png)
 
-## 2️⃣ Configuração de Credenciais para RAG (Retrieval-Augmented Generation)
+## 3️⃣Configuração de Credenciais para RAG (Retrieval-Augmented Generation)
 
 Na aba **App Builder**, clique em **Workspace Utilities** para acessar as ferramentas utilitárias do workspace.
 
@@ -113,9 +122,9 @@ Em seguida, selecione **Web Credentials** e clique na credencial existente chama
    ![Web Credentials](images/web-credentials.png)
    ![Apex AI Cred](images/apex-ai-cred.png)
 
-Para preencher corretamente essa credencial, é necessário obter algumas informações sobre o usuário no ambiente OCI. Na guia do navegador onde o OCI está aberto, clique no avatar no canto superior direito e selecione **User Settings**.
-
-   ![User Settings](images/user-settings.png)
+Para preencher corretamente essa credencial, é necessário obter algumas informações sobre o usuário no ambiente OCI (https://cloud.oracle.com/). Na guia do navegador onde o OCI está aberto, clique no avatar no canto superior direito e selecione **User Settings**.
+   ![User Settings](images/AcessarOCI11.png)
+   ![User Settings](images/AcessarOCI12.png)
 
 Na tela **User Settings**, localize a guia **API Keys** no canto inferior esquerdo. Clique nela e siga as instruções do assistente (wizard) para criar um par de chaves de API. 
 
@@ -136,7 +145,7 @@ Caso você tenha fechado a página com os dados, clique nos **três pontos** em 
 
 Por fim, clique em **Apply Changes** para salvar as configurações e concluir o ajuste da credencial.
 
-## 3️⃣ Configuração no Payload da API de Requisição
+## 4️⃣ Configuração no Payload da API de Requisição
 
 Para concluir este processo, será necessário realizar uma alteração no **payload da API de requisição**.
 
@@ -158,7 +167,7 @@ Por fim, clique em **Apply Changes** para salvar as alterações.
 
    ![alt text](images/ocid-compartment.png)
 
-## 4️⃣ Teste da Aplicação
+## 5️⃣ Teste da Aplicação
 
 Com a configuração da credencial concluída, podemos testar a aplicação. Para isso, clique em **App Builder** e, em seguida, no ícone **Run** para executar a aplicação e verificar seu funcionamento.
 
@@ -166,7 +175,7 @@ Com a configuração da credencial concluída, podemos testar a aplicação. Par
 
 Clique no ícone **(☰)** e selecione a aba **Arquivos e Normas**.
 
-   ![Assistente AI](images/assistente-ai.png)
+   ![Assistente AI](images/arquivos-normas.png)
 
 Seguiremos com o upload de um arquivo PDF para dentro da aplicação. **Qualquer PDF pode ser utilizado**, mas, para fins didáticos deste workshop, recomendamos as normas disponíveis no link: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
 
@@ -176,6 +185,7 @@ Seguiremos com o upload de um arquivo PDF para dentro da aplicação. **Qualquer
 
 Clique em **Upload** e preencha o formulário seguindo o exemplo fornecido. O **JSON** utilizado para o preenchimento está disponível logo abaixo da imagem de referência.
 
+   ![Uploader](images/Upload.png)
    ![Uploader](images/uploader.png)
 
 
@@ -202,11 +212,7 @@ Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado.
 
 **Se não houver erro, você terá concluído com sucesso o workshop.** Sinta-se à vontade para fazer o upload de outros arquivos ou explorar realizando novas perguntas ao Assistente AI.
 
-## 5️⃣ [Extra] Testar APEX
 
-1. Para testar o APEX, entre no link a seguir:
-[APEX do Laboratório finalizado](https://g51069da5907266-adwfasttrack.adb.sa-saopaulo-1.oraclecloudapps.com/ords/r/demo/demo/assistente-ai?session=212550394555216)
-2. Execute as ações da Atividade 4 (atividade anterior).
 
 
 ## 👥 Agradecimentos
