@@ -1,10 +1,23 @@
 ## Oracle Cloud Data Science
-A seguir o passo a passo do laboratório.
 
-### **Recursos e Suporte**:
+# 🎯 **Objetivos**
 
-- **Download dos arquivos para Laboratório**: [FAST-TRACK-DATAPREV](https://objectstorage.us-ashburn-1.oraclecloud.com/p/l7yzt-bPV3jgT2Dqb6w-cn0sOVI8hLojugAJ32GtH_-KBHwB24mxzkw80he7CnWj/n/idi1o0a010nx/b/bucket-dataprev/o/DATA_AI_FAST_TRACK.zip)
-- **Documentação da Oracle Cloud**: [OCI Data Science](https://docs.oracle.com/en-us/iaas/data-science/using/home.htm)
+Utilizar **OCI Data Science** e a **API do OCI Generative AI** para extrair informações de documentos em **Python**, aproveitando o poder do modelo **LLAMA 3.2 90B**, que analisa **texto e imagens**.  
+
+🔹 **O que você aprenderá:**  
+- Criar **notebook no OCI Data Science** e carregar os documentos.  
+- Desenvolver código em **Python** para interagir com a **API do OCI Generative AI**.  
+- Implementar **RAG (Retrieval-Augmented Generation)** para consultas inteligentes em documentos.  
+- Explorar o **LLAMA 3.2 90B** para análise avançada de texto e imagens.  
+
+# ⚠️ **ATENÇÃO**:
+
+**Download do arquivo ZIP:** [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
+<br>
+<br>
+Arquivos utilizados neste laboratório:
+  - Jupyter Notebook **FASTRACK\_AI\_DOCUMENTOS.ipynb**
+  - Documentos anonimizados **(rg\_aberto.jpg, cnh\_aberta,jpg, etc)**
 
 ### _**Aproveite sua experiência na Oracle Cloud!**_
 
@@ -48,23 +61,12 @@ A seguir o passo a passo do laboratório.
 
 > **Tudo isso no OCI Data Science: escalável, seguro e integrado!** 🚀
 
-<br>
-
-### 📌 **Objetivos**
-
-Utilizar **OCI Data Science** e a **API do OCI Generative AI** para extrair informações de documentos em **Python**, aproveitando o poder do modelo **LLAMA 3.2 90B**, que analisa **texto e imagens**.  
-
-🔹 **O que você aprenderá:**  
-- Criar **notebook no OCI Data Science** e carregar os documentos.  
-- Desenvolver código em **Python** para interagir com a **API do OCI Generative AI**.  
-- Implementar **RAG (Retrieval-Augmented Generation)** para consultas inteligentes em documentos.  
-- Explorar o **LLAMA 3.2 90B** para análise avançada de texto e imagens.  
-
-<br>
+### **Recursos e Suporte**:
+- **Documentação da Oracle Cloud**: [OCI Data Science](https://docs.oracle.com/en-us/iaas/data-science/using/home.htm)
 
 ## 1️⃣ Acesso ao notebook OCI Data Science
 
-Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
+ Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Data Science**
 
 ![Create Project](images/create-project.png)
 
@@ -92,7 +94,7 @@ Após abrir o Environment Explorer, busque o ambiente com nome ``Oracle AutoMLx 
 
 ![Install Complete](images/install-complete.png)
 
-> Caso o terminal não tenha sido aberto no momento da instalação, selecione **File ⮕ New ⮕ Terminal** no menu localizado na região esquerda superior da tela.
+> **SOMENTE no caso do terminal não ter sido aberto no momento da instalação, selecione File ⮕ New ⮕ Terminal no menu localizado na região esquerda superior da tela.**
 >![Open Terminal](images/open-terminal.png)
 
 Com o terminal aberto, cole o código abaixo para buscar o caminho do conda environment que será ativado.
@@ -102,7 +104,7 @@ Com o terminal aberto, cole o código abaixo para buscar o caminho do conda envi
     </copy>  
 <!-- Separador -->
 
-Copie o caminho indicado, e utilize no código abaixo.
+Copie o caminho indicado acima, e utilize no código abaixo.
 
     <copy>  
     conda activate <caminho-do-ambiente>  
@@ -111,7 +113,7 @@ Copie o caminho indicado, e utilize no código abaixo.
 
 ![Conda Activate](images/conda-activate.png)
 
-Assim que o ambiente estiver ativo, executar os seguintes comandos no terminal:
+Assim que o ambiente estiver ativo, executar os seguintes comandos no terminal **(copie o código, cole no terminal e clique Enter)**:
 
     <copy>  
     pip install PyMuPDF
@@ -123,7 +125,7 @@ Assim que o ambiente estiver ativo, executar os seguintes comandos no terminal:
 
 Faça o download dos documentos que serão utilizados neste laboratório. Neste laboratório utilizaremos documentos de identificação anonimizados.
 
--  [FAST-TRACK-DATAPREV](https://objectstorage.us-ashburn-1.oraclecloud.com/p/l7yzt-bPV3jgT2Dqb6w-cn0sOVI8hLojugAJ32GtH_-KBHwB24mxzkw80he7CnWj/n/idi1o0a010nx/b/bucket-dataprev/o/DATA_AI_FAST_TRACK.zip)
+-  [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
 
 Descompacte o arquivo em sua máquina. 
 
@@ -153,6 +155,10 @@ Clique **duas vezes** no notebook e selecione o kernel correto na região direit
 ## 4️⃣ Processamento do código Notebook OCI Data Science
 
 Com as etapas anteriores concluídas, siga para a etapa 2 do código aberto. **Execute os códigos seguintes através do ícone ▶️ indicado na imagem.**
+
+> **ATENÇÃO:** É de EXTREMA importância verificar os indicadores de **[ACTION]** na etapa 3.3 do código e ajustar se necessário. Caso esteja na região de São Paulo, ajuste a variável **llm\_service\_endpoint** para **https://inference.generativeai.sa-saopaulo-1.oci.oraclecloud.com**
+
+<br>
 
 >### *Explicação:*
 ><br>
@@ -213,7 +219,9 @@ Nesta etapa, iremos definir as funções utilizadas em nosso código.
 >           - Chama `llm_client.chat(llm_payload)`, enviando a requisição para o modelo.  
 >           - Armazena a resposta extraída da **IA generativa**.
 
-Nesta etapa, iremos executar as funções criadas em nosso código. Verifique os indicadores de **[ACTION]** no código e ajuste se necessário. 
+Nesta etapa, iremos executar as funções criadas em nosso código. 
+
+> **ATENÇÃO:** É de EXTREMA importância verificar os indicadores de **[ACTION]** nesta etapa do código e ajustar se necessário. Caso esteja na região de São Paulo, ajuste a variável **llm\_service\_endpoint** para **https://inference.generativeai.sa-saopaulo-1.oci.oraclecloud.com**
 
 ![Execute Functions](images/execute-functions.png)
 

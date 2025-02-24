@@ -1,10 +1,14 @@
 ## Oracle 23ai Vector Search
 
-A seguir o passo a passo do laboratório.
-### **Recursos e Suporte**:
-- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
-- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
+# 🎯 **Objetivos**
 
+Demonstrar de forma prática como utilizar a funcionalidade de busca vetorial do Oracle 23c AI Vector Search.
+
+O que você aprenderá:
+
+- Criar e configurar um banco de dados autônomo (Autonomous Database) no Oracle Cloud Infrastructure (OCI).
+- Utilizar a funcionalidade de busca vetorial para otimizar consultas e análises em PDFs.
+- Explorar as vantagens do Oracle 23c AI na integração de dados relacionais e semânticos.
 
 ### _**Aproveite sua experiência na Oracle Cloud!**_
 
@@ -27,27 +31,17 @@ Referência: [Announcing Oracle Database 23ai : General Availability
 
 > O Oracle AI Vector Search permite criar tabelas com o novo tipo de dado VECTOR, armazenando vetores diretamente no banco de dados. É possível inserir vetores com INSERT, carregar dados usando SQL Loader ou Data Pump, e criar índices para otimizar buscas em embeddings. Novas funções SQL, como as de cálculo de distância vetorial, facilitam a análise de vetores, enquanto operadores adicionais permitem criar, converter e descrever vetores, além de realizar chunking e embeddings de dados de forma eficiente.
 
-<br>
-
-### 📌 **Objetivos**
-
-Demonstrar de forma prática como utilizar a funcionalidade de busca vetorial do Oracle 23c AI Vector Search.
-
-O que você aprenderá:
-
-- Criar e configurar um banco de dados autônomo (Autonomous Database) no Oracle Cloud Infrastructure (OCI).
-- Utilizar a funcionalidade de busca vetorial para otimizar consultas e análises.
-- Explorar as vantagens do Oracle 23c AI na integração de dados relacionais e semânticos.
-
-<br>
-
+### **Recursos e Suporte**:
+- **Documentação da Oracle Cloud**: [Getting started with vectors in 23ai](https://blogs.oracle.com/coretec/post/getting-started-with-vectors-in-23ai)
+- **Tutoriais**: [Oracle Database 23ai - Oracle AI Vector Search & Retrieval Augmented Generation (RAG) with Oracle APEX](https://www.linkedin.com/pulse/oracle-database-23ai-ai-vector-search-retrieval-augmented-rao-bqkcf/)
 
 ## 1️⃣ Acessar o Autonomous Database
-1. Primeiro, você irá acessar o OCI e ir até o Menu de Hambúrguer >> Oracle Database >> Autonous Data Warehouse
+Clique no menu **(☰)** e selecione **Database ⮕ Autonomous Data Warehouse**.
+
    ![Acessar ADW](images/OCIADW1.png)
    ![Acessar ADW](images/OCIADW2.png)
 
-2. Selecione sua instância do Autonomous Database criado no laboratório inicial. (Caso não apareça, verifique que o compartimento que você está é o mesmo que foi utilizado para criar o banco de dados)
+Selecione sua instância do Autonomous Database criado no laboratório inicial. (Caso não apareça, verifique se o compartimento que você está é o mesmo que foi utilizado para criar o banco de dados)
    ![Acessar ADW](images/OCIADW3.png)
 
 
@@ -56,9 +50,13 @@ O que você aprenderá:
 Clique no ícone chamado **Database Actions** e selecione **SQL**.
 ![Database Actions](images/database-actions.png)
 
-Caso seja requisitado, o usuário é **admin** e a senha é a **fornecida na criação do autonomous database da etapa anteiror.**
+**Somente caso seja requisitado**, o usuário é **admin** e a senha é a **WORKSHOPsec2019##** , utilizado na criação do autonomous database da etapa anterior.
+<br> 
+<br>
 Feche todos os tutoriais que aparecerão na página.
-Copie, cole e execute os comandos abaixo:
+<br>
+<br>
+Em seguida, copie, cole e execute os comandos abaixo:
 
 
     <copy>  

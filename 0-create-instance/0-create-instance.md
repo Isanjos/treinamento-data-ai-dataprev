@@ -1,10 +1,23 @@
-## Provisionar Serviços do OCI
+## Provisionamento de Serviços do OCI
 
-A seguir o passo a passo do laboratório.
-### **Recursos e Suporte**:
+# 🎯 **Objetivos**
 
-- **Documentação da Oracle Cloud**: [Documentação do Oracle Cloud Infrastructure](https://docs.oracle.com/pt-br/iaas/Content/home.htm)
-- **Introdução**: [Why Oracle Cloud Infrastructure](https://www.youtube.com/watch?v=ljiUqro6_Mc)
+Demonstrar de forma prática e ágil o provisionamento das soluções dentro do OCI.
+
+O que você aprenderá **durante este workshop**:
+
+- Criar **em poucos cliques** um banco de dados autônomo no Oracle Cloud Infrastructure (OCI);
+- Desenvolver em **20 minutos** uma plataforma low-code para consultas em PDFs;
+- Utilizar modelos de IA Generativa para **coletar informações de documentos em imagem**;
+- Provisionar uma plataforma de **autoatendimento de Análise de Negócio** (Oracle Analytics Cloud);
+
+# ⚠️ **ATENÇÃO**:
+
+- **DOWNLOAD:** Faça o download do ZIP ([ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/__HtfOF8ckhYiRUzD6efj9gxJiMu74KGSIVE5abngqyK8CNenHS2QdceDGzJWV3y/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)), pois os arquivos serão utilizados nos próximos laboratórios.
+
+- **SENHA:** Durante o provisionamento dos recursos, é necessário a criação de senhas. Utilize a senha recomendada: **WORKSHOPsec2019##**
+
+- **COMPARTMENT:** Realize todos os provisionamentos no compartimento **ROOT**, conforme indicado no tutorial.
 
 
 ### _**Aproveite sua experiência na Oracle Cloud!**_
@@ -22,59 +35,53 @@ Soluções de nuvem confiáveis para praticamente qualquer local, incluindo Orac
 OCI Dedicated Region e Oracle Alloy são os únicos produtos que fornecem mais de 100 serviços a preços de nuvem pública inteiramente em seus data centers.
 ![Tipos de Nuvem](images/OCI.png)
 
-### 📌 **Objetivos**
+### **Recursos e Suporte**:
 
-Demonstrar de forma prática como é fácil e ágil o provisionamento das soluções dentro do OCI.
-
-O que você aprenderá:
-
-- Criar um banco de dados autônomo (Autonomous Database) no Oracle Cloud Infrastructure (OCI);
-- Provisionar Oracle Analytics Cloud, plataforma de autoatendimento de Análise de Negócio;
-- Fazer a configuração do OCI Data Science.
-
-<br>
+- **Documentação da Oracle Cloud**: [Documentação do Oracle Cloud Infrastructure](https://docs.oracle.com/pt-br/iaas/Content/home.htm)
+- **Introdução**: [Why Oracle Cloud Infrastructure](https://www.youtube.com/watch?v=ljiUqro6_Mc)
 
 
-## 1️⃣ Validação de Região
+## 1️⃣ Validação da Região
 
-1. Faça o login no [Oracle Cloud Infrastructure (OCI)](https://cloud.oracle.com/) e valide se a região de Chicago se encontra disponível para uso.
+1. Faça o login no [Oracle Cloud Infrastructure (OCI)](https://cloud.oracle.com/) e valide se a região de **Chicago** ou **São Paulo** se encontra disponível para uso.
+
+   > **Se sua região não for uma das indicadas, as aplicações que utilizam inteligência artificial generativa não estarão disponíveis.**
 
    ![Validate Region](images/validate-region.png " ")
 
-> **Caso a região de Chicago não esteja disponível, clique em manage region (caso já esteja disponível pule para a sessão 2 - Criação de Autonomous Database)** 
-![Manage Region](images/manage-region.png)
 
-2. Busque por **US Midwest (Chicago)** e clique no botão subscribe. O processo de subscrição pode levar alguns minutos, aguarde para dar sequência ao workshop. Clique no ícone escrito **Oracle Cloud** no canto esquerdo e faça logoff e login para validar se a região já foi subscrita.
+## 2️⃣ Criação do Autonomous Database
 
-![Subscribe Region](images/subscribe-region.png)
-
-## 2️⃣ Criação de Autonomous Database
-
-1. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência navegue até a página de gestão de autonomous databases.
+1. Clique no menu **(☰)** e selecione **Database ⮕ Autonomous Database**.
 
 ![Autonomous Acess](images/Homepage-ADB.png)
 
 2. Na página de gestão de Autonomous Databases, clique em **Create Autonomous Database**.
-Escolha o **Compartment**: <<'NomeTenancy'>>**root**
+   
+> **ATENÇÃO:** Selecione o **Compartment** com nome de ```<NomeTenancy>(root)```
+
 ![Create Autonomous](images/CreateADB.png)
 ![Create Autonomous](images/CompartmentADB.png)
 
-3. Selecione **ADW - Data Warehouse**
+1. Selecione **ADW - Data Warehouse**
 ![Create Autonomous](images/create-autonomous.png)
 
-4. Escolha a versão 23ai para o banco de dados:
+1. Escolha a versão 23ai para o banco de dados:
 
 ![Create 23AI](images/create-23ai.png)
 
-5. Coloque a senha **WORKSHOPsec2019##** , escolha **secure access from everywhere** e clique em **Create Autonomous Database**:
+5. Utilize a senha recomendada: **WORKSHOPsec2019##** . Selecione **secure access from everywhere** e clique em **Create Autonomous Database**:
 <br><br>
+
+> **ATENÇÃO**: Verifique se utilizou a senha recomendada **WORKSHOPsec2019##**
 
 ![Secure Acess](images/secure-acess.png)
 
 6. Vá para o próximo laboratório.
-<br>Status do Autonomous Database:
-- Ícone amarelo = criando; 
-- Ícone verde = pronto para uso;
+
+> **Status do Autonomous Database:**
+> - Ícone amarelo = Em criação; 
+> - Ícone verde = Pronto para uso;
 
 ![Yellow ADW](images/yellow-adw.png)
 ![Green ADW](images/green-adw.png)
@@ -82,24 +89,26 @@ Escolha o **Compartment**: <<'NomeTenancy'>>**root**
 
 ## 3️⃣ Criação do Oracle Analytics Cloud
 
-1. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência navegue até a página de gestão do Oracle Analytics Cloud.
+1. Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Analytics Cloud**.
 
 ![Analytics Cloud Acess](images/AcessoAnalytics.png)
 
 2. Na página de gestão do Oracle Analytics Cloud, clique em **Create Instance**.
+
+> **ATENÇÃO:** Selecione o **Compartment** com nome de ```<NomeTenancy>(root)```
   
 ![Create Analytics Cloud](images/CreateOAC.png)
 
-3. Dê um nome a instância do Analytics Cloud.
-<br>Escolha o **Compartment**: <<'NomeTenancy'>>**root** e mantenha as outras configurações padrão. Ao finalizar clique em **Create**.
+1. Dê um nome a instância do Analytics Cloud. Selecione o **Compartment** com nome de ```<NomeTenancy>(root)``` e mantenha as outras configurações padrão. Ao finalizar clique em **Create**.
 
 ![Configurando Analytics Cloud](images/CreateOAC1.png)
 ![Configurando Analytics Cloud](images/CreateOAC2.png)
 
 4. Vá para o próximo laboratório.
-<br>Status do Oracle Analytics Cloud:
-- Ícone amarelo = criando; 
-- Ícone verde = pronto para uso;
+
+> **Status do Oracle Analytics Cloud:**
+> - Ícone amarelo = Em criação; 
+> - Ícone verde = Pronto para uso;
 
 ![Yellow OAC](images/CreateOAC4.png)
 ![Green OAC](images/CreateOAC3.png)
@@ -109,14 +118,18 @@ Escolha o **Compartment**: <<'NomeTenancy'>>**root**
 
 Antes de criar o ambiente de código, vamos configurar as permissões necessárias para a interação entre os serviços.
 
-![Copy Compartment](images/copy-compartment.png)
-
-1. Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Identity & Security ⮕ Policies**
+1. Clique no menu **(☰)** e selecione **Identity & Security ⮕ Policies**
 
 ![Acess Policies](images/acess-policies.png)
 
-2. Clique em **Create Policy**. Em seguida, dê um nome e uma descrição.
 
+2. Clique em **Create Policy**. Em seguida, dê um nome e uma descrição.
+ - **NOME: policies-data-science** 
+ - **DESCRIÇÃO: Políticas para Data Science**
+  
+> **ATENÇÃO:** Selecione o **Compartment** com nome de ```<NomeTenancy>(root)```
+<br> 
+  
 ![Create Policies](images/create-policies.png)
 
 3. Escolha o **Compartment**: <<'NomeTenancy'>>**root**
@@ -130,6 +143,10 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
     allow any-user to manage generative-ai-family in tenancy
     </copy>  
 <!-- Separador -->
+=======
+> **ATENÇÃO:** Não é necessário ajustar o conteúdo da policy, mantenha a frase como indicado acima.
+
+![Policy Data Science](images/policy-data-science.png)
 
 5. Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
 
@@ -154,25 +171,32 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
 Você está pronto para prosseguir para o próximo laboratório.
 
 
-## 5️⃣ [Extra] Situação das Intâncias
+## 5️⃣ [Extra] Situação das Instâncias
 
-1. Clique no símbulo da Oracle Cloud, canto superior esquerdo, na homepage os últimos serviços acessados e o status deles. Como a imagem a seguir.
+1. Clique no símbolo da Oracle Cloud, no canto superior esquerdo. Na página inicial, você verá os últimos serviços acessados e o status de cada um, conforme mostrado na imagem a seguir.
+
 ![Homepage Status](images/HomepageStatus.png)
 
-### **[OPCIONAL]**
-2. Para ver cada uma das instâncias pode clicar no nome da instância ou navegar pelo OCI acessando os serviços, passos para acessar essas instâncias a seguir.
+### **[OPCIONAL - Verificação Individual]**
+Para visualizar cada instância, você pode clicar no nome da instância ou navegar pelo OCI acessando os serviços. Os passos para acessar essas instâncias estão detalhados a seguir.
 
-3. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência selecione **Oracle Databse ⮕ Autonomous Database**. Selecione seu Autonomous Database.
+#### AUTONOMOUS DATABASE
+
+1. Clique no menu **(☰)** e selecione **Database ⮕ Autonomous Database**.
 
 ![Autonomous Acess](images/Homepage-ADB.png)
 ![Green ADW](images/green-adw.png)
 
-4. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência selecione **Analytics & AI ⮕ Oracle Analytics Cloud**. Selecione seu Oracle Analytics.
+#### ANALYTICS CLOUD
+
+2. Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Analytics Cloud**. Selecione seu Oracle Analytics.
 
 ![Analytics Cloud Acess](images/AcessoAnalytics.png)
 ![Green OAC](images/CreateOAC3.png)
 
-5. Clique no menu de hambúrger do canto superior esquerdo da tela, na sequência selecione **Analytics & AI ⮕ Data Science**. Selecione seu projeto.
+#### OCI DATA SCIENCE
+
+3. Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Data Science**. Selecione seu projeto.
 
 ![Create Project](images/create-project.png)
 ![Notebook Session](images/notebook-session.png)
