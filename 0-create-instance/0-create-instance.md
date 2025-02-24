@@ -63,10 +63,10 @@ OCI Dedicated Region e Oracle Alloy são os únicos produtos que fornecem mais d
 ![Create Autonomous](images/CreateADB.png)
 ![Create Autonomous](images/CompartmentADB.png)
 
-1. Selecione **ADW - Data Warehouse**
+3. Selecione **ADW - Data Warehouse**
 ![Create Autonomous](images/create-autonomous.png)
 
-1. Escolha a versão 23ai para o banco de dados:
+4. Escolha a versão 23ai para o banco de dados:
 
 ![Create 23AI](images/create-23ai.png)
 
@@ -77,14 +77,13 @@ OCI Dedicated Region e Oracle Alloy são os únicos produtos que fornecem mais d
 
 ![Secure Acess](images/secure-acess.png)
 
-6. Vá para o próximo laboratório.
+6. **Vá para o próximo laboratório.**
 
 > **Status do Autonomous Database:**
 > - Ícone amarelo = Em criação; 
 > - Ícone verde = Pronto para uso;
 
 ![Yellow ADW](images/yellow-adw.png)
-![Green ADW](images/green-adw.png)
 
 
 ## 3️⃣ Criação do Oracle Analytics Cloud
@@ -104,14 +103,13 @@ OCI Dedicated Region e Oracle Alloy são os únicos produtos que fornecem mais d
 ![Configurando Analytics Cloud](images/CreateOAC1.png)
 ![Configurando Analytics Cloud](images/CreateOAC2.png)
 
-4. Vá para o próximo laboratório.
+4. **Vá para o próximo laboratório.**
 
 > **Status do Oracle Analytics Cloud:**
 > - Ícone amarelo = Em criação; 
 > - Ícone verde = Pronto para uso;
 
 ![Yellow OAC](images/CreateOAC4.png)
-![Green OAC](images/CreateOAC3.png)
 
 
 ## 4️⃣ Criação de Notebook OCI Data Science
@@ -142,16 +140,16 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
     allow any-user to manage generative-ai-family in tenancy
     </copy>  
 <!-- Separador -->
-=======
 > **ATENÇÃO:** Não é necessário ajustar o conteúdo da policy, mantenha a frase como indicado acima.
 
-![Policy Data Science](images/policy-data-science.png)
+![Policy Data Science](images/Policies.png)
 
 5. Clique no menu de hambúrger do canto superior esquerdo da tela, selecione **Analytics & AI ⮕ Data Science**
 
 ![Create Project](images/create-project.png)
 
-6. Clique em **Create Project**, defina um nome para o projeto e em seguida, clique em **Create**, na região inferior da tela.
+6. Clique em **Create Project**, escolha o Compartment: <<'NomeTenancy'>>root, defina um nome para o projeto e em seguida, clique em **Create**, na região inferior da tela.
+> **ATENÇÃO:** Selecione o **Compartment** com nome de ```<NomeTenancy>(root)```
 
 ![Name Project](images/name-project.png)
 

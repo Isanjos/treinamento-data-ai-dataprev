@@ -42,8 +42,8 @@ Arquivos utilizados neste laboratório:
 
 1. Para testar o APEX, entre no link a seguir:
 [APEX do Laboratório finalizado](https://g51069da5907266-adwfasttrack.adb.sa-saopaulo-1.oraclecloudapps.com/ords/r/demo/demo/assistente-ai?session=212550394555216)
-2. Execute as ações da Atividade 4 (atividade anterior).
-3. Clique em Assistente AI e faça uma pergunta relacionada ao documento carregado. Por exemplo, você pode perguntar: **"COMO FAZER ALTERAÇÃO DE VIAGEM"**.
+2. Clique em **Assistente AI** e Selecione o DOcumento **Viagem a Serviço Nacional**.
+3. Faça uma pergunta relacionada ao documento. Por exemplo, você pode perguntar: **"COMO FAZER ALTERAÇÃO DE VIAGEM"**.
 
    ![Question](images/question.png)
 

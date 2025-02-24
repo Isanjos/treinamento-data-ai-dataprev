@@ -122,6 +122,8 @@ Em seguida, copie, cole e execute os comandos abaixo:
 Execute conforme indicado abaixo, **Execute Script**:
 
 ![Execute Code](images\execute-code.png)
+![Execute Code](images\execute-code1.png)
+
 
 🎉🎉 Parabéns, você terminou os Laboratórios de **Oracle 23ai Vector Search: Configure seu Banco Vetorial para Análises Avançadas com sucesso!!** 🎉🎉
 
