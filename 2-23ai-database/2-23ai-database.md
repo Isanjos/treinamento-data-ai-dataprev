@@ -56,7 +56,9 @@ Clique no ícone chamado **Database Actions** e selecione **SQL**.
 Feche todos os tutoriais que aparecerão na página.
 <br>
 <br>
-Em seguida, copie, cole e execute os comandos abaixo:
+Em seguida, copie, cole e execute os comandos abaixo. Execute conforme indicado abaixo, **Execute Script**:
+
+![Execute Code](images\execute-code.png)
 
 
     <copy>  
@@ -119,9 +121,7 @@ Em seguida, copie, cole e execute os comandos abaixo:
 
     </copy>
 
-Execute conforme indicado abaixo, **Execute Script**:
 
-![Execute Code](images\execute-code.png)
 ![Execute Code](images\execute-code1.png)
 
 

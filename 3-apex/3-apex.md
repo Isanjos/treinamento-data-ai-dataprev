@@ -52,6 +52,7 @@ Arquivos utilizados neste laboratório:
 **Para acessar a URL da instância APEX na Console do Oracle Cloud Infrastructure (OCI) siga os passos a seguir.**
 
 Inicialmente, retorne ao console da OCI. Em seguida, navegue até a página do seu Autonomous Database. Dentro da página da instância do banco de dados, localize e clique na opção **"Tool Configuration"**. Lá, você encontrará a URL da instância APEX. **Copie essa URL e abra em seu navegador.**
+<br> Senha sugerida: **WORKSHOPsec2019##**
 
    ![Tool Configuration](images/tool-config.png)
 
@@ -142,6 +143,9 @@ Caso você tenha fechado a página com os dados, clique nos **três pontos** em 
 
    ![Config Tenancy](images/config-tenancy.png)
    ![OCID API APEX](images/ocid-api-apex.png)
+
+O OCI Private Key é do --- até ----, como está na imagem.
+   ![OCID API APEX](images/api-key3.png)
 
 Por fim, clique em **Apply Changes** para salvar as configurações e concluir o ajuste da credencial.
 
