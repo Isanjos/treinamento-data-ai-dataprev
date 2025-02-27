@@ -13,7 +13,7 @@ O que você aprenderá **durante este workshop**:
 
 # ⚠️ **ATENÇÃO**:
 
-- **DOWNLOAD:** Faça o download do ZIP ([ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/__HtfOF8ckhYiRUzD6efj9gxJiMu74KGSIVE5abngqyK8CNenHS2QdceDGzJWV3y/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)), pois os arquivos serão utilizados nos próximos laboratórios.
+- **DOWNLOAD:** Faça o download do ZIP ([ARQUIVOS-FAST-TRACK](https://objectstorage.us-ashburn-1.oraclecloud.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)), pois os arquivos serão utilizados nos próximos laboratórios.
 
 - **SENHA:** Durante o provisionamento dos recursos, é necessário a criação de senhas. Utilize a senha recomendada: **WORKSHOPsec2019##**
 
