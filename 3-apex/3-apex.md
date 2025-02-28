@@ -13,7 +13,7 @@ O que você aprenderá:
 
 # ⚠️ **ATENÇÃO**:
 
-**Download do arquivo ZIP:** [ARQUIVOS-FAST-TRACK](https://objectstorage.us-ashburn-1.oraclecloud.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
+**Download do arquivo ZIP:**  [ARQUIVOS-FAST-TRACK](https://idi1o0a010nx.objectstorage.us-ashburn-1.oci.customer-oci.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
 <br>
 <br>
 Arquivos utilizados neste laboratório:
@@ -183,7 +183,7 @@ Clique no ícone **(☰)** e selecione a aba **Arquivos e Normas**.
 
 Seguiremos com o upload de um arquivo PDF para dentro da aplicação. **Qualquer PDF pode ser utilizado**, mas, para fins didáticos deste workshop, recomendamos as normas disponíveis no link: [Normas Internas Dataprev](https://www.dataprev.gov.br/governanca/normativos/normasinternas). Para o nosso exemplo, utilizaremos o arquivo **Viagem a Serviço Nacional**.
 
-> **ATENÇÃO:** O documento PDF também está disponível no arquivo zip [ARQUIVOS-FAST-TRACK](https://objectstorage.us-ashburn-1.oraclecloud.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
+> **ATENÇÃO:** O documento PDF também está disponível no arquivo zip [ARQUIVOS-FAST-TRACK](https://idi1o0a010nx.objectstorage.us-ashburn-1.oci.customer-oci.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
 
    ![Dataprev Site](images/dataprev-site.png)
 
