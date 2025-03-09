@@ -7,7 +7,7 @@ O objetivo deste workshop é demonstrar de forma prática como utilizar a ferram
 
 # ⚠️ **ATENÇÃO**:
 
-**Download do arquivo ZIP:** [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
+**Download do arquivo ZIP:** [ARQUIVOS-FAST-TRACK](https://idi1o0a010nx.objectstorage.us-ashburn-1.oci.customer-oci.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
 <br>
 <br>
 Arquivos utilizados neste laboratório:
@@ -46,7 +46,7 @@ Agora abra o ambiente clique no botão **Analytics Homepage**.
 
 <br>
 
-Após o acesso da Homepage do OAC, **faça o download do arquivo .zip** no qual contém o arquivo .dva com o material do laboratório: [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
+Após o acesso da Homepage do OAC, **faça o download do arquivo .zip** no qual contém o arquivo .dva com o material do laboratório: [ARQUIVOS-FAST-TRACK](https://idi1o0a010nx.objectstorage.us-ashburn-1.oci.customer-oci.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
 
 Em seguida, clique nos 3 pontos, ao lado do ícone do perfil. Selecione **'Import Workbook'**.
    ![Import do Arquivo](images/Import1.png)
