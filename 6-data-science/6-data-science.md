@@ -12,7 +12,7 @@ Utilizar **OCI Data Science** e a **API do OCI Generative AI** para extrair info
 
 # ⚠️ **ATENÇÃO**:
 
-**Download do arquivo ZIP:** [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
+**Download do arquivo ZIP:** [ARQUIVOS-FAST-TRACK](https://idi1o0a010nx.objectstorage.us-ashburn-1.oci.customer-oci.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
 <br>
 <br>
 Arquivos utilizados neste laboratório:
@@ -125,7 +125,7 @@ Assim que o ambiente estiver ativo, executar os seguintes comandos no terminal *
 
 Faça o download dos documentos que serão utilizados neste laboratório. Neste laboratório utilizaremos documentos de identificação anonimizados.
 
--  [ARQUIVOS-FAST-TRACK](https://objectstorage.sa-saopaulo-1.oraclecloud.com/p/guSkIEAu7sNEmxLxVPtgxffzgNeKgGOmWylItTi_pFlC82yg7qEL9khYHAMomQ_m/n/gr22x2xy27fx/b/bucket-arquivos-dataprev/o/ARQUIVOS_FAST_TRACK.zip)
+-  [ARQUIVOS-FAST-TRACK](https://idi1o0a010nx.objectstorage.us-ashburn-1.oci.customer-oci.com/n/idi1o0a010nx/b/Fast_Track/o/ARQUIVOS_FAST_TRACK.zip)
 
 Descompacte o arquivo em sua máquina. 
 
